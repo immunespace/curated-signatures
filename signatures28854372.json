@@ -1,0 +1,216 @@
+{
+  "publication_text": "Systems Vaccinology Identifies an Early Innate Immune Signature as a Correlate of Antibody Responses to the Ebola Vaccine rVSV-ZEBOV",
+  "publication_pmid": "28854372",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY1373",
+      "id": 0
+    },
+    {
+      "name": "ClinicalTrials.gov",
+      "repository_id": "NCT02283099",
+      "id": 1
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PE1373_01",
+      "event_type": "study enrollment",
+      "event_subtype": "study inclusion",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PE1373_02",
+      "event_type": "vaccination",
+      "event_subtype": "rVSV ZEBOV Ebola vaccination",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 2,
+      "planned_event_id": "PV7185",
+      "event_type": "specimen collection",
+      "event_subtype": "Baseline blood collection",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 3,
+      "planned_event_id": "PV7186",
+      "event_type": "specimen collection",
+      "event_subtype": "Day 1 blood collection",
+      "earliest_start": 1,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 4,
+      "planned_event_id": "PV7187",
+      "event_type": "specimen collection",
+      "event_subtype": "Day 3 blood collection",
+      "earliest_start": 1,
+      "time_unit": "day",
+      "is_T0": false
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "all participants",
+      "immport_arm_id": [
+        "ARM4645",
+        "ARM4646"
+      ],
+      "is_full_arm": true,
+      "id": 0,
+      "human_subjects": 20,
+      "biological_sex": {
+        "male": 13,
+        "female": 7
+      },
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0003155",
+          "name": "rVSV-ZEBOV"
+        }
+      ]
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "Changes in plasma protein expression 1 day after rVSV-ZEBOV vaccination",
+      "location": [
+        {
+          "type": "Text",
+          "value": "Section: Induction of Antiviral Plasma Cytokines Starts on Day 1 after Vaccination"
+        },
+        {
+          "type": "Figure",
+          "value": "1a"
+        },
+        {
+          "type": "Figure",
+          "value": "1b"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "tissue": "Plasma",
+        "time_point": 2
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "tissue": "Plasma",
+        "time_point": 3
+      },
+      "experiment_type": "Bio-Plex Luminex-200 (Bio-Rad)",
+      "experiment_time_point": 3,
+      "response_component": [
+        {
+          "type": "protein",
+          "identifier": [
+            "IP-10 (CXCL-10)",
+            "MCP-1",
+            "MIP-1beta"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 1,
+      "description": "Changes in plasma protein expression 3 days after rVSV-ZEBOV vaccination",
+      "location": [
+        {
+          "type": "Text"
+        },
+        {
+          "type": "Figure",
+          "value": "1a"
+        },
+        {
+          "type": "Figure",
+          "value": "1b"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "tissue": "Plasma",
+        "time_point": 2
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "tissue": "Plasma",
+        "time_point": 4
+      },
+      "experiment_type": "Bio-Plex Luminex-200 (Bio-Rad)",
+      "experiment_time_point": 4,
+      "response_component": [
+        {
+          "type": "protein",
+          "identifier": [
+            "IP-10 (CXCL-10)"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 3,
+      "description": "Changes in plasma gene expression 1 day after rVSV-ZEBOV vaccination",
+      "location": [
+        {
+          "type": "Table",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "tissue": "Plasma",
+        "time_point": 2
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "tissue": "Plasma",
+        "time_point": 3
+      },
+      "experiment_type": "Next Generation RNA sequencing",
+      "experiment_time_point": 3,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "CCL8",
+            "CCL2",
+            "LAMP3",
+            "CXCL10",
+            "RSAD2",
+            "HESX1",
+            "USP18",
+            "ISG15",
+            "IFIT1",
+            "HERC5"
+          ],
+          "behavior": "Changed"
+        }
+      ],
+      "repository": 0
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "publication_text": "Accelerated Longitudinal Weight Gain Among Infants With In Utero COVID-19 Exposure",
+  "publication_pmid": "36988326",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY2618",
+      "id": 0
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PE2618_02",
+      "event_type": "documented exposure without evidence for disease",
+      "event_subtype": "in utero COVID-19 exposure",
+      "earliest_start": -40,
+      "latest_start": -1,
+      "time_unit": "week",
+      "is_T0": false
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PE2618_03",
+      "event_type": "birth",
+      "event_subtype": "end of gestation",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 2,
+      "planned_event_id": "PE2618_04",
+      "event_type": "physical examination",
+      "event_subtype": "recording of weight, height and BMI",
+      "earliest_start": 2,
+      "time_unit": "month",
+      "is_T0": false
+    },
+    {
+      "id": 3,
+      "planned_event_id": "PE2618_05",
+      "event_type": "physical examination",
+      "event_subtype": "recording of weight, height and BMI",
+      "earliest_start": 6,
+      "time_unit": "month",
+      "is_T0": false
+    },
+    {
+      "id": 4,
+      "planned_event_id": "PE2618_06",
+      "event_type": "physical examination",
+      "event_subtype": "recording of weight, height and BMI",
+      "earliest_start": 12,
+      "time_unit": "month",
+      "is_T0": false
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "infants with in utero COVID-19 exposure",
+      "immport_arm_id": [
+        "ARM9137"
+      ],
+      "is_full_arm": true,
+      "id": 0,
+      "age": [],
+      "human_subjects": 149,
+      "biological_sex": {
+        "male": 82,
+        "female": 67
+      },
+      "geolocation": [
+        "US: Massachusetts"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Occurrence of infectious disease",
+          "organism": "SARS-CoV2",
+          "disease_name": "COVID-19",
+          "disease_stage": "Acute/Recent onset",
+          "disease_severity": "mild",
+          "time_point_id": 0
+        }
+      ]
+    },
+    {
+      "name": "infants without in utero COVID-19 exposure",
+      "immport_arm_id": [
+        "ARM9138"
+      ],
+      "is_full_arm": true,
+      "id": 1,
+      "age": [],
+      "human_subjects": 127,
+      "biological_sex": {
+        "male": 60,
+        "female": 67
+      },
+      "geolocation": [
+        "US: Massachusetts"
+      ],
+      "immune_exposure": []
+    },
+    {
+      "name": "all infants",
+      "immport_arm_id": [
+        "ARM9137",
+        "ARM9138"
+      ],
+      "is_full_arm": true,
+      "id": 2,
+      "age": [],
+      "human_subjects": 276,
+      "biological_sex": {
+        "male": 142,
+        "female": 134
+      },
+      "geolocation": [
+        "US: Massachusetts"
+      ]
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "Assessments of infants with in utero COVID-19 exposure vs those without at birth",
+      "location": [
+        {
+          "type": "Text",
+          "value": "Abstract, Results (Birth Anthropometrics by In Utero COVID-19 Exposure Status)"
+        },
+        {
+          "type": "Table",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 1,
+        "time_point": 0
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "time_point": 0
+      },
+      "experiment_type": "assessment",
+      "experiment_time_point": 0,
+      "response_component": [
+        {
+          "type": "weight",
+          "identifier": [
+            "PATO:0000128"
+          ],
+          "behavior": "down"
+        },
+        {
+          "type": "body mass index (BMI)",
+          "identifier": [
+            "CMO:0000105"
+          ],
+          "behavior": "down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 1,
+      "description": "12 months",
+      "location": [
+        {
+          "type": "Text",
+          "value": "Abstract, Results (Birth Anthropometrics by In Utero COVID-19 Exposure Status)"
+        },
+        {
+          "type": "Table",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 1,
+        "time_point": 4
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "time_point": 4
+      },
+      "experiment_type": "assessment",
+      "experiment_time_point": 4,
+      "response_component": [
+        {
+          "type": "weight",
+          "identifier": [
+            "PATO:0000128"
+          ],
+          "behavior": "up"
+        },
+        {
+          "type": "body mass index (BMI)",
+          "identifier": [
+            "CMO:0000105"
+          ],
+          "behavior": "up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 2,
+      "description": "infant weight at 12 months vs birth regardless of in utero COVID-19 exposure",
+      "location": [
+        {
+          "type": "Text",
+          "value": "Abstract, Results (Birth Anthropometrics by In Utero COVID-19 Exposure Status)"
+        },
+        {
+          "type": "Table",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 2,
+        "time_point": 1
+      },
+      "comparison_group": {
+        "participant_group": 2,
+        "time_point": 4
+      },
+      "experiment_type": "assessment",
+      "experiment_time_point": 4,
+      "response_component": [
+        {
+          "type": "weight",
+          "identifier": [
+            "PATO:0000128"
+          ],
+          "behavior": "up"
+        },
+        {
+          "type": "body mass index (BMI)",
+          "identifier": [
+            "CMO:0000105"
+          ],
+          "behavior": "up"
+        },
+        {
+          "type": "height",
+          "identifier": [
+            "PATO:0000119"
+          ],
+          "behavior": "up"
+        }
+      ],
+      "repository": 0
+    }
+  ]
+}

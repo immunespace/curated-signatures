@@ -1,0 +1,329 @@
+{
+  "publication_text": "Systems vaccinology of the BNT162b2 mRNA vaccine in humans",
+  "publication_pmid": "34252919",
+  "contributor": "Ashish Shelar",
+  "contributor_org": "Yale",
+  "contributor_email": "ashish.shelar@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY2189",
+      "id": 0
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PV12048",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 0,
+      "time_unit": "day"
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PE2189_02",
+      "event_type": "vaccination",
+      "event_subtype": "Pfizer-BioNTech mRNA vaccine (BNT162b2) vaccination",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 2,
+      "planned_event_id": "PV12082",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 2,
+      "time_unit": "day"
+    },
+    {
+      "id": 3,
+      "planned_event_id": "PV12051",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 21,
+      "time_unit": "day"
+    },
+    {
+      "id": 4,
+      "planned_event_id": "PV12662",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 23,
+      "time_unit": "day"
+    },
+    {
+      "id": 5,
+      "planned_event_id": "PV12049",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 1,
+      "time_unit": "day"
+    },
+    {
+      "id": 6,
+      "planned_event_id": "PV12052",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 22,
+      "time_unit": "day"
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "healthy volunteers who were vaccinated with the Pfizer-BioNTech mRNA vaccine (BNT162b2) (ARM7080)",
+      "immport_arm_id": [
+        "ARM7080"
+      ],
+      "id": 0,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 19,
+          "value2": 79,
+          "units": "years"
+        },
+        {
+          "type": "Median",
+          "value1": 36,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 56,
+      "biological_sex": {
+        "male": 28,
+        "female": 28
+      },
+      "race": {
+        "American Indian / Alaska Native": 1,
+        "Asian": 22,
+        "Black or African American": 4,
+        "White": 27,
+        "Other": 1
+      },
+      "ethnicity": {
+        "Hispanic or Latino": 2,
+        "Not Hispanic or Latino": 54
+      },
+      "geolocation": [],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0004908",
+          "time_point_id": 1
+        }
+      ]
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "Cell expression in blood day 2 vs day 0 following COVID-19 vaccination",
+      "location": [
+        {
+          "type": "Text",
+          "value": "Subsection: 'Innate immune responses'"
+        },
+        {
+          "type": "Figure",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "tissue": "Blood",
+        "time_point": 0
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "tissue": "Blood",
+        "time_point": 2
+      },
+      "experiment_type": "Mass Cytometry Assay",
+      "experiment_time_point": null,
+      "response_component": [
+        {
+          "type": "cell",
+          "identifier": [
+            "CL:0002393"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 1,
+      "description": "Cell expression day 23 vs day 21 in blood following COVID-19 vaccination",
+      "location": [
+        {
+          "type": "Text",
+          "value": "Subsection: 'Innate immune responses'"
+        },
+        {
+          "type": "Figure",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "tissue": "Blood",
+        "time_point": 3
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "tissue": "Blood",
+        "time_point": 4
+      },
+      "experiment_type": "Mass Cytometry Assay",
+      "experiment_time_point": null,
+      "response_component": [
+        {
+          "type": "cell",
+          "identifier": [
+            "CL:0002393"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 2,
+      "description": "second vs first COVID-19 vaccine gene expression in cDC2",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "4F"
+        },
+        {
+          "type": "Text",
+          "value": "'Single-cell transcriptional response' subsection"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "tissue": "Blood",
+        "cell_base_type": "Dendritic cell",
+        "cell_population": "cDC2",
+        "cell_population_id": "CL:0000990",
+        "time_point": 5
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "tissue": "Blood",
+        "cell_base_type": "Dendritic cell",
+        "cell_population": "cDC2",
+        "cell_population_id": "CL:0000990",
+        "time_point": 6
+      },
+      "experiment_type": "CITE-seq sequencing",
+      "experiment_time_point": null,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "WARS",
+            "GBP1",
+            "STAT1",
+            "IFI35",
+            "IDO1",
+            "IFI30",
+            "IRF7",
+            "IFI44L",
+            "B2M",
+            "ADAR",
+            "OAS2",
+            "ANKRD22"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "IL18",
+            "JUN",
+            "CXCR4",
+            "FOS",
+            "CD37",
+            "CD48",
+            "FCER1A"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 3,
+      "description": "second vs first COVID-19 vaccine gene expression in CD14+ monocytes",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "4F"
+        },
+        {
+          "type": "Text",
+          "value": "'Single-cell transcriptional response' subsection"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "tissue": "Blood",
+        "cell_base_type": "Mononuclear cell",
+        "cell_population_id": "CL:0001054",
+        "cell_population": "CD14+ monocyte",
+        "time_point": 5
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "tissue": "Blood",
+        "cell_base_type": "Mononuclear cell",
+        "cell_population_id": "CL:0001054",
+        "cell_population": "CD14+ monocyte",
+        "time_point": 6
+      },
+      "experiment_type": "CITE-seq sequencing",
+      "experiment_time_point": null,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "WARS",
+            "STAT1",
+            "IFI44L",
+            "ANKRD22",
+            "IDO1",
+            "IFI35",
+            "IRF7",
+            "OAS2",
+            "ADAR",
+            "IFI30",
+            "B2M",
+            "MX1"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "ITGAM",
+            "CXCR4",
+            "CD14",
+            "FOS",
+            "CD52",
+            "S100A12",
+            "VCAN"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    }
+  ]
+}

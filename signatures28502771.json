@@ -1,0 +1,325 @@
+{
+  "publication_text": "Metabolic Phenotypes of Response to Vaccination in Humans",
+  "publication_pmid": "28502771",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY984",
+      "id": 0
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PV5374",
+      "event_type": "specimen collection",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PE0984_04",
+      "event_type": "vaccination",
+      "event_subtype": "Zostavax vaccination",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 2,
+      "planned_event_id": "PV5375",
+      "event_type": "specimen collection",
+      "earliest_start": 1,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 3,
+      "planned_event_id": "PV5376",
+      "event_type": "specimen collection",
+      "earliest_start": 3,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 4,
+      "planned_event_id": "PV5377",
+      "event_type": "specimen collection",
+      "earliest_start": 7,
+      "time_unit": "day",
+      "is_T0": false
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "young adults",
+      "immport_arm_id": [
+        "ARM3536"
+      ],
+      "is_full_arm": true,
+      "id": 0,
+      "geolocation": [
+        "US: Georgia",
+        "US: Colorado"
+      ],
+      "human_subjects": 33,
+      "biological_sex": {
+        "male": 10,
+        "female": 23
+      },
+      "race": {
+        "Asian": 2,
+        "Black or African American": 9,
+        "White": 20,
+        "Other": 2
+      },
+      "ethnicity": {
+        "Hispanic or Latino": 3,
+        "Not Hispanic or Latino": 30
+      },
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 25,
+          "value2": 40,
+          "units": "years"
+        }
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0000124",
+          "name": "Zostavax"
+        }
+      ]
+    },
+    {
+      "name": "so called elderly adults",
+      "immport_arm_id": [
+        "ARM3537"
+      ],
+      "is_full_arm": true,
+      "id": 1,
+      "geolocation": [],
+      "human_subjects": 44,
+      "biological_sex": {
+        "male": 19,
+        "female": 25
+      },
+      "race": {
+        "American Indian / Alaska Native": 1,
+        "Black or African American": 2,
+        "White": 41
+      },
+      "ethnicity": {
+        "Hispanic or Latino": 3,
+        "Not Hispanic or Latino": 41
+      },
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 60,
+          "value2": 79,
+          "units": "years"
+        }
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0000124",
+          "name": "Zostavax"
+        }
+      ]
+    },
+    {
+      "name": "young and so called elderly combined",
+      "immport_arm_id": [
+        "ARM3536",
+        "ARM3537"
+      ],
+      "is_full_arm": true,
+      "id": 2,
+      "geolocation": [],
+      "human_subjects": 77,
+      "biological_sex": {
+        "male": 29,
+        "female": 48
+      },
+      "race": {
+        "American Indian / Alaska Native": 1,
+        "Asian": 2,
+        "Black or African American": 11,
+        "White": 61,
+        "Other": 2
+      },
+      "ethnicity": {
+        "Hispanic or Latino": 6,
+        "Not Hispanic or Latino": 71
+      },
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 25,
+          "value2": 79,
+          "units": "years"
+        }
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0000124",
+          "name": "Zostavax"
+        }
+      ]
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "Differences in blood gene expression following Zostavax (day 1 vs day 0)",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "S2a"
+        },
+        {
+          "type": "Text",
+          "value": "Results section; Sub-heading: Transcriptomic signatures of Zostavax (R) vaccination"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 2,
+        "tissue": "Blood",
+        "time_point": 0
+      },
+      "comparison_group": {
+        "participant_group": 2,
+        "tissue": "Blood",
+        "time_point": 2
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "PSPH",
+            "SLC22A16"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "MYO6",
+            "TARP",
+            "GZMH",
+            "S1PR5",
+            "CCL5"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 1,
+      "description": "Differences in blood gene expression following Zostavax (day 3 vs day 0)",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "S2a"
+        },
+        {
+          "type": "Text",
+          "value": "Results section; Sub-heading: Transcriptomic signatures of Zostavax (R) vaccination"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 2,
+        "tissue": "Blood",
+        "time_point": 0
+      },
+      "comparison_group": {
+        "participant_group": 2,
+        "tissue": "Blood",
+        "time_point": 3
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "PSPH",
+            "MX1",
+            "KDELR2",
+            "ERAP2",
+            "IFI44L"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "PDP1",
+            "EGR1"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 2,
+      "description": "Differences in blood gene expression following Zostavax (day 7 vs day 0)",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "S2a"
+        },
+        {
+          "type": "Text",
+          "value": "Results section; Sub-heading: Transcriptomic signatures of Zostavax (R) vaccination"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 2,
+        "tissue": "Blood",
+        "time_point": 0
+      },
+      "comparison_group": {
+        "participant_group": 2,
+        "tissue": "Blood",
+        "time_point": 4
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "TNFRSF17",
+            "MZB1",
+            "IGL@",
+            "IGH@",
+            "IGLV1-44"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "N4BP2"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    }
+  ]
+}

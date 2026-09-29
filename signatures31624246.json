@@ -1,0 +1,235 @@
+{
+  "publication_text": "Single-cell transcriptomics of human T cells reveals tissue and activation signatures in health and disease",
+  "publication_pmid": "31624246",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY1654",
+      "id": 0
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PE1654_01",
+      "event_type": "study enrollment",
+      "event_subtype": "enrollment",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PE1654_02",
+      "event_type": "death",
+      "event_subtype": "brain death",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 2,
+      "planned_event_id": "PV8917",
+      "event_type": "specimen collection",
+      "event_subtype": "tissue donation",
+      "earliest_start": 1,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 3,
+      "planned_event_id": "PV8918",
+      "event_type": "specimen collection",
+      "event_subtype": "blood donation",
+      "earliest_start": 1,
+      "time_unit": "day",
+      "is_T0": false
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "healthy controls",
+      "immport_arm_id": [
+        "ARM5304_01"
+      ],
+      "is_full_arm": false,
+      "id": 0,
+      "geolocation": [
+        "US: New York"
+      ],
+      "human_subjects": 2,
+      "immune_exposure": []
+    },
+    {
+      "name": "deceased tissue donors",
+      "immport_arm_id": [
+        "ARM5304"
+      ],
+      "is_full_arm": false,
+      "id": 1,
+      "geolocation": [
+        "US: New York"
+      ],
+      "human_subjects": 2,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 52,
+          "value2": 65,
+          "units": "years"
+        }
+      ],
+      "biological_sex": {
+        "male": 2,
+        "female": 0
+      },
+      "race": {
+        "White": 1
+      },
+      "ethnicity": {
+        "Hispanic or Latino": 1
+      },
+      "immune_exposure": []
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "Lung of deceased tissue donors vs healthy blood gene expression",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "3a"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "time_point": 3,
+        "tissue": "Blood"
+      },
+      "comparison_group": {
+        "participant_group": 1,
+        "time_point": 2,
+        "tissue": "Lung"
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "LGALS1",
+            "TUBA1B",
+            "S100A4",
+            "S100A10",
+            "VIM",
+            "TUBB",
+            "ANXA2",
+            "PLP2",
+            "LGALS3",
+            "AMICA1",
+            "ITGA1"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 1,
+      "description": "Bone marrow of deceased tissue donors vs healthy blood gene expression",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "3b"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "time_point": 3,
+        "tissue": "Blood"
+      },
+      "comparison_group": {
+        "participant_group": 1,
+        "time_point": 2,
+        "tissue": "Bone Marrow"
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "S100A4",
+            "TUBA1B",
+            "TUBB",
+            "LGALS1",
+            "TUBA1A",
+            "CD63",
+            "CARD19"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 2,
+      "description": "Lymph node of deceased tissue donors vs healthy blood gene expression",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "3c"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "time_point": 3,
+        "tissue": "Blood"
+      },
+      "comparison_group": {
+        "participant_group": 1,
+        "time_point": 2,
+        "tissue": "Lymph Node"
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "TUBA1B",
+            "S100A6",
+            "TUBB",
+            "S100A4",
+            "ANXA1",
+            "ITM2A",
+            "CD27",
+            "AMICA1",
+            "AQP3",
+            "TUBA4A",
+            "ITM2C",
+            "CARD18",
+            "STMN1",
+            "TMEM14C",
+            "PRDX1",
+            "TUBA1A",
+            "PLP2",
+            "ANXA2",
+            "TUBB4B",
+            "LGALS3",
+            "EZR",
+            "MRPS6",
+            "CLDND1",
+            "RGCC"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    }
+  ]
+}

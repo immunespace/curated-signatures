@@ -1,0 +1,988 @@
+{
+  "publication_text": "High-dimensional assessment of B-cell responses to quadrivalent meningococcal conjugate and plain polysaccharide vaccine",
+  "publication_pmid": "28137280",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY1325",
+      "id": 0
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PE6848",
+      "event_type": "study enrollment",
+      "event_subtype": "enrollment",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PV6848",
+      "event_type": "specimen collection",
+      "event_subtype": "blood draw",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 2,
+      "planned_event_id": "PE6849",
+      "event_type": "vaccination",
+      "event_subtype": "Intramuscular MenACWY-CRM",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 3,
+      "planned_event_id": "PE6850",
+      "event_type": "vaccination",
+      "event_subtype": "Intramuscular MenACWY-PS",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 4,
+      "planned_event_id": "PE6851",
+      "event_type": "vaccination",
+      "event_subtype": "Subcutaneous MenACWY-PS",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 5,
+      "planned_event_id": "PE6852",
+      "event_type": "vaccination",
+      "event_subtype": "One-fifth dose intramuscular MenACWY-PS",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 6,
+      "planned_event_id": "PV6849",
+      "event_type": "specimen collection",
+      "event_subtype": "blood draw",
+      "earliest_start": 7,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 7,
+      "planned_event_id": "PV6850",
+      "event_type": "specimen collection",
+      "event_subtype": "blood draw",
+      "earliest_start": 21,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 8,
+      "planned_event_id": "PE6853",
+      "event_type": "vaccination",
+      "event_subtype": "intramuscular MenACWY-CRM",
+      "earliest_start": 28,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 9,
+      "planned_event_id": "PV6851",
+      "event_type": "specimen collection",
+      "event_subtype": "blood draw",
+      "earliest_start": 28,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 10,
+      "planned_event_id": "PV6852",
+      "event_type": "specimen collection",
+      "event_subtype": "blood draw",
+      "earliest_start": 35,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 11,
+      "planned_event_id": "PV6853",
+      "event_type": "specimen collection",
+      "event_subtype": "blood draw",
+      "earliest_start": 49,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 12,
+      "planned_event_id": "PV6854",
+      "event_type": "specimen collection",
+      "event_subtype": "blood draw",
+      "earliest_start": 56,
+      "time_unit": "day",
+      "is_T0": false
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "Healthy adult volunteers immunised with intramuscular MenACWY-CRM (group 1)",
+      "immport_arm_id": [
+        "ARM4525"
+      ],
+      "is_full_arm": true,
+      "id": 0,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 32.15,
+          "value2": 62.96,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 5,
+      "biological_sex": {
+        "male": 1,
+        "female": 4
+      },
+      "geolocation": [
+        "UK"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0000053"
+        }
+      ]
+    },
+    {
+      "name": "Healthy adult volunteers immunised with intramuscular MenACWY-PS (group 2)",
+      "immport_arm_id": [
+        "ARM4526"
+      ],
+      "is_full_arm": true,
+      "id": 1,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 40.27,
+          "value2": 68.24,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 5,
+      "biological_sex": {
+        "male": 3,
+        "female": 2
+      },
+      "geolocation": [
+        "UK"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0000053"
+        }
+      ]
+    },
+    {
+      "name": "Healthy adult volunteers immunised with subcutaneous MenACWY-PS (group 3)",
+      "immport_arm_id": [
+        "ARM4527"
+      ],
+      "is_full_arm": true,
+      "id": 2,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 35.81,
+          "value2": 60.23,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 5,
+      "biological_sex": {
+        "male": 1,
+        "female": 4
+      },
+      "geolocation": [
+        "UK"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0000053"
+        }
+      ]
+    },
+    {
+      "name": "Healthy adult volunteers immunised with one-fifth dose intramuscular MenACWY-PS (group 4)",
+      "immport_arm_id": [
+        "ARM4528"
+      ],
+      "is_full_arm": true,
+      "id": 3,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 43.48,
+          "value2": 68.09,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 5,
+      "biological_sex": {
+        "male": 2,
+        "female": 3
+      },
+      "geolocation": [
+        "UK"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0000053"
+        }
+      ]
+    },
+    {
+      "name": "All 4 cohorts",
+      "immport_arm_id": [
+        "ARM4525",
+        "ARM4526",
+        "ARM4527",
+        "ARM4528"
+      ],
+      "is_full_arm": true,
+      "id": 4,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 32.15,
+          "value2": 68.24,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 20,
+      "biological_sex": {
+        "male": 7,
+        "female": 13
+      },
+      "geolocation": [
+        "UK"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0000053"
+        }
+      ]
+    },
+    {
+      "name": "Groups 2, 3, 4",
+      "immport_arm_id": [
+        "ARM4526",
+        "ARM4527",
+        "ARM4528"
+      ],
+      "is_full_arm": true,
+      "id": 5,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 32.15,
+          "value2": 68.09,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 15,
+      "biological_sex": {
+        "male": 6,
+        "female": 9
+      },
+      "geolocation": [
+        "UK"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0000053"
+        }
+      ]
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "Changes in plasma cell gene expression in healthy adult volunteers immunised with intramuscular MenACWY-CRM after 7 days",
+      "location": [
+        {
+          "type": "Text",
+          "value": "Results: A plasma cell gene signature is evident in whole blood 7 days after the initial dose of MenACWY vaccine with similarities and differences between plain polysaccharide and conjugate vaccines"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "time_point": 1,
+        "tissue": "Blood"
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "time_point": 6,
+        "tissue": "Blood"
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "IGLL1",
+            "LOC642113"
+          ],
+          "behavior": "Changed"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 1,
+      "description": "Changes in plasma cell gene expression in healthy adult volunteers immunised with intramuscular MenACWY-PS after 7 days",
+      "location": [
+        {
+          "type": "Text",
+          "value": "Results: A plasma cell gene signature is evident in whole blood 7 days after the initial dose of MenACWY vaccine with similarities and differences between plain polysaccharide and conjugate vaccines"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 1,
+        "time_point": 1,
+        "tissue": "Blood"
+      },
+      "comparison_group": {
+        "participant_group": 1,
+        "time_point": 6,
+        "tissue": "Blood"
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "IGLL1",
+            "LOC642113"
+          ],
+          "behavior": "Changed"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 2,
+      "description": "Changes in plasma cell gene expression in healthy adult volunteers immunised against meningitis in 4 different ways after 7 days after first dose",
+      "location": [
+        {
+          "type": "Text",
+          "value": "Results: A plasma cell gene signature is evident in whole blood 7 days after the initial dose of MenACWY vaccine with similarities and differences between plain polysaccharide and conjugate vaccines"
+        },
+        {
+          "type": "Figure",
+          "value": "3A"
+        },
+        {
+          "type": "Table",
+          "value": "S2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 1,
+        "tissue": "Blood"
+      },
+      "comparison_group": {
+        "participant_group": 4,
+        "time_point": 6,
+        "tissue": "Blood"
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "LOC651751",
+            "LOC642113",
+            "LOC649923",
+            "CDKN2D"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "LOC100131905"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 3,
+      "description": "Changes in plasma cell gene expression in healthy adult volunteers immunised against meningitis in 4 different ways after 7 days after second dose",
+      "location": [
+        {
+          "type": "Text",
+          "value": "Results: A plasma cell gene signature is evident in whole blood 7 days after the initial dose of MenACWY vaccine with similarities and differences between plain polysaccharide and conjugate vaccines"
+        },
+        {
+          "type": "Figure",
+          "value": "3B"
+        },
+        {
+          "type": "Table",
+          "value": "S8"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 9,
+        "tissue": "Blood"
+      },
+      "comparison_group": {
+        "participant_group": 4,
+        "time_point": 10,
+        "tissue": "Blood"
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "C17orf61",
+            "SNTB2",
+            "SPOP",
+            "LPCAT4",
+            "ACIN1",
+            "WBP5",
+            "AHCYL1",
+            "SASH3",
+            "LOC728431",
+            "CCDC12",
+            "LOC653888",
+            "PPP2R1A",
+            "ZNF512B",
+            "PSMC3",
+            "TUBGCP2",
+            "TIMM17B",
+            "SIVA1",
+            "CROCC",
+            "FAM128A",
+            "KIAA1715",
+            "UBL5",
+            "SND1",
+            "ATP2B4",
+            "LOC90120",
+            "BRMS1",
+            "CPSF2",
+            "SYNJ2BP",
+            "LETM1",
+            "FBXL11",
+            "ERC1",
+            "POLR3A",
+            "DIS3L2",
+            "ATP5J2",
+            "C7orf50",
+            "TBC1D17",
+            "RRP7A",
+            "CYP4F12",
+            "ZNF768",
+            "TTC17",
+            "USP21",
+            "SIVA",
+            "MED24",
+            "C19orf70",
+            "DYNC1H1",
+            "LAMB2L",
+            "GMEB1",
+            "SURF2",
+            "ACAP1",
+            "NOSIP",
+            "CHD4",
+            "SIN3B",
+            "TMEM219",
+            "LOC646808",
+            "MYST4",
+            "MYL6",
+            "HUWE1",
+            "TAZ",
+            "NUDT22",
+            "HAPLN3",
+            "PPM1B",
+            "WHAMM",
+            "HSP90AB1",
+            "AIF1",
+            "C6orf129",
+            "PCNXL3",
+            "ERGIC3",
+            "YAF2",
+            "RPL13",
+            "CUX1",
+            "BATF",
+            "MYL6",
+            "RTN4",
+            "PHKA2",
+            "SFRS16",
+            "FKBP2",
+            "STUB1",
+            "LSMD1",
+            "PROK1",
+            "ATP5J2",
+            "PPP1R10",
+            "POLR1B",
+            "P76",
+            "C19orf43",
+            "MARCH6",
+            "ARL6IP4",
+            "KIAA0460",
+            "PCNXL2",
+            "HMGA1",
+            "MRPL41",
+            "EIF3B",
+            "SUPT6H",
+            "LOC100133080",
+            "MYO1G",
+            "RDM1",
+            "TFF3",
+            "PKN1",
+            "KPNA6",
+            "HPS5",
+            "MAP4",
+            "CARS",
+            "CHD4",
+            "DIAPH1",
+            "LOC100134273",
+            "MED15",
+            "ANKRD13D",
+            "ROMO1",
+            "LSM7",
+            "CEBPE",
+            "STIP1",
+            "C6orf125",
+            "C6orf106",
+            "CORO7",
+            "NRBP1",
+            "NFKB2",
+            "LOC100131801",
+            "BRD3",
+            "TNPO3",
+            "HOMER3",
+            "KIAA1267",
+            "FOXP1",
+            "USF2",
+            "VPS13C",
+            "CBX5",
+            "HNMT",
+            "CD3E",
+            "LOC653158",
+            "UGCGL1",
+            "COL6A2",
+            "OGDH",
+            "CPNE5",
+            "TYMP",
+            "SAMD4B",
+            "APOBEC3C",
+            "MRPS16",
+            "LOC441155",
+            "LONP2",
+            "GTF2F1",
+            "SLC38A7",
+            "DAXX",
+            "HDAC7A",
+            "PLEC1",
+            "LOC648509",
+            "FLNA",
+            "PA2G4",
+            "WASF2",
+            "CSNK2A1P",
+            "APOL1",
+            "RALGPS2",
+            "AKAP8L",
+            "UBE2D2",
+            "UBE2Z",
+            "SUPT5H",
+            "HYMAI",
+            "APOBEC3D",
+            "LOC100129905",
+            "LOC100128771",
+            "TMEM1",
+            "LOC441155",
+            "SPTBN1",
+            "TRIM4",
+            "ITGA2B",
+            "MIR1974"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "C6orf190",
+            "DSE",
+            "RBM47",
+            "JMJD1C",
+            "WASPIP",
+            "PTGER4",
+            "C12orf35",
+            "PIGB",
+            "NFE2L2",
+            "RCBTB2",
+            "IFIH1",
+            "ELOVL5",
+            "SLC40A1",
+            "FBXO7",
+            "GBP1",
+            "PAG1",
+            "NPTN",
+            "TMEM55A",
+            "RSBN1L",
+            "UBXN4",
+            "MST4",
+            "TSC22D3",
+            "LMBRD1",
+            "RAB5A",
+            "ZFP36L2",
+            "TRIM23",
+            "LOC728519",
+            "LOC730820",
+            "IKZF3",
+            "PTEN",
+            "PPM1A",
+            "KHDRBS1",
+            "LOC153561",
+            "OSBPL9",
+            "HSPH1",
+            "SDHD",
+            "GBP1",
+            "RNF13",
+            "CA2",
+            "PPM1D",
+            "DEGS1",
+            "COPB1",
+            "SLC15A4",
+            "JAK1",
+            "C1orf19",
+            "NFAT5",
+            "PSIP1",
+            "C4orf41",
+            "AFF3",
+            "KIAA1370",
+            "FAM120A",
+            "FCRLA",
+            "CDKN1B",
+            "FAM117B",
+            "HSD17B11",
+            "FPR2",
+            "AHCTF1",
+            "TRIM24",
+            "FAM149B1",
+            "PPT1",
+            "MAT2B",
+            "MORC3",
+            "CHMP2B",
+            "TIA1",
+            "EVI2B",
+            "TRIM33",
+            "LAMP2",
+            "WDR20",
+            "SMARCA5",
+            "PAPD4",
+            "CTSC",
+            "RBMS1",
+            "PRPS2",
+            "CA2",
+            "MPPE1",
+            "C14orf100",
+            "USP48",
+            "LIPA",
+            "LAMP2",
+            "VPS35",
+            "MYC",
+            "KIAA1468",
+            "ANXA7",
+            "CCBL2",
+            "TLR2",
+            "RIN2",
+            "MARCKS",
+            "PUM1",
+            "HERPUD1",
+            "RBM12",
+            "IKZF5",
+            "ZNF700",
+            "C13orf23",
+            "ALDH1A1",
+            "GPR160",
+            "LIPT1",
+            "BID",
+            "PGRMC2",
+            "SNAP23",
+            "PLEKHB2",
+            "ABLIM1",
+            "LOC400657",
+            "CASP8",
+            "WWP2",
+            "DPYD",
+            "TSNAX",
+            "RIPK2",
+            "C1orf25",
+            "LILRB2",
+            "SFRS2IP",
+            "MFSD6",
+            "NRBF2",
+            "IREB2",
+            "MAP7",
+            "TPK1",
+            "LOC643031",
+            "RELL1",
+            "C9orf6",
+            "SLC25A43",
+            "CD8A",
+            "ABHD5",
+            "PTGDR",
+            "HLA-DPB1",
+            "LYRM5",
+            "UBE2G1",
+            "SGK1",
+            "KLF4",
+            "OSBPL10",
+            "INPP4A",
+            "LRRC37B",
+            "NUDT9",
+            "RBMS1",
+            "CLPX",
+            "ZNF586",
+            "GTF2IP1",
+            "TLR6",
+            "TGFBR2",
+            "NNT",
+            "NIP7",
+            "CASP8",
+            "OGFRL1",
+            "BID",
+            "DIMT1L",
+            "TRAK1",
+            "PKIA",
+            "RBBP4",
+            "GSPT2",
+            "TOPBP1",
+            "CRTAP",
+            "C7orf42",
+            "RBM16",
+            "ZMIZ1",
+            "WAC",
+            "PRKCH",
+            "ZNF207",
+            "NCOA1",
+            "EXOC1",
+            "PSMC4",
+            "USP24",
+            "ZNF621",
+            "MPZL1",
+            "TAF2",
+            "UBE2E3",
+            "SUMO1P3",
+            "SLC35E3",
+            "SYPL1",
+            "DEGS1",
+            "KPNB1",
+            "TTYH2",
+            "ARID2",
+            "SEC22C",
+            "CD8A",
+            "CHES1",
+            "CCT4",
+            "SEC24B",
+            "KIAA1737",
+            "NBPF11",
+            "SOCS2",
+            "ITM2B",
+            "CDC14A",
+            "ZC3H14",
+            "IDE",
+            "ZNF274",
+            "LOC651316",
+            "SP100",
+            "ATMIN",
+            "KCTD6",
+            "MRPS30",
+            "LOC646675",
+            "FLJ38482",
+            "TARP",
+            "ARF4",
+            "KIAA0907",
+            "TIA1",
+            "MTR",
+            "C10orf104",
+            "GGPS1",
+            "FBXO21",
+            "ATP1B3",
+            "TSPYL1",
+            "PPP2R2D",
+            "LOC646463",
+            "TMEM206",
+            "ZCCHC9",
+            "ZNF654",
+            "TCP1",
+            "PGCP",
+            "C21orf96",
+            "MLKL",
+            "PIGP",
+            "LOC442535",
+            "PGCP",
+            "CCDC45",
+            "MCL1",
+            "SRP54",
+            "ATG4C",
+            "HPRT1",
+            "VKORC1L1",
+            "KIAA1737",
+            "HNRNPF",
+            "SERPINE2",
+            "SWAP70",
+            "LOC644761",
+            "ATP1B3",
+            "SPPL2A",
+            "OSBPL9",
+            "RBBP5",
+            "CIAO1",
+            "CXCR6",
+            "CTGLF3",
+            "CDK2AP1",
+            "ACPL2",
+            "CXorf45",
+            "SSBP2",
+            "ALDH2",
+            "PHOSPHO2",
+            "CPT2",
+            "PRPS2",
+            "S100PBP",
+            "WDR20",
+            "FCRL3",
+            "CDC5L",
+            "CD96",
+            "MAN2B2",
+            "MAF",
+            "AXIN2",
+            "MXI1",
+            "ZNF567",
+            "SH2B3",
+            "BANK1",
+            "CAMK2G",
+            "YIPF4",
+            "RUNDC1",
+            "CCDC50",
+            "HIATL1",
+            "ZNF23",
+            "SRP14",
+            "ST6GAL1",
+            "MRI1",
+            "RAB1A",
+            "LOC646531",
+            "LOC653234",
+            "GMPS",
+            "RSPH3",
+            "KIAA0892",
+            "TMEM69",
+            "FTHL7",
+            "TRNAU1AP",
+            "TCHP",
+            "PRDM8",
+            "UBTD2",
+            "UVRAG",
+            "ZFP3",
+            "ELMO2"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 4,
+      "description": "Differences in plasma gene expression 7 days after second dose between healthy adult volunteers immunised first with intramuscular MenACWY-CRM and later received a second dose of vaccine vs. healthy adult volunteers immunised first with intramuscular MenACWY-PS and later received a second dose of vaccine.",
+      "location": [
+        {
+          "type": "Table",
+          "value": "S10"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 5,
+        "time_point": 6,
+        "tissue": "Blood"
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "time_point": 6,
+        "tissue": "Blood"
+      },
+      "experiment_type": "RNA sequencing assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "GEMIN5",
+            "ZHX1",
+            "PIAS3",
+            "ZNF35",
+            "LRP8",
+            "MRPL35",
+            "HPRT1",
+            "C10orf61",
+            "VKORC1L1",
+            "TICAM2",
+            "C2orf47",
+            "SYNCRIP",
+            "LOC645175",
+            "FAM119A",
+            "TIMM9",
+            "BZW2",
+            "UBE2E3",
+            "GABPA",
+            "MGAT2"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "SLC35E2",
+            "KIFC3",
+            "GRIP2",
+            "LOC126520",
+            "LOC730841",
+            "ZNF232",
+            "SLC26A6",
+            "EGOT",
+            "PSMD13",
+            "SLIC1",
+            "SSR2",
+            "SUV420H2"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    }
+  ],
+  "notes": []
+}

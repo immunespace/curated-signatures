@@ -1,0 +1,414 @@
+{
+  "publication_text": "A Population of CD4+CD8+ Double-Positive T Cells Associated with Risk of Plasma Leakage in Dengue Viral Infection",
+  "publication_pmid": "35062294",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY1995",
+      "id": 0
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PV1995_01",
+      "event_type": "occurrence of infectious disease",
+      "event_subtype": "Dengue fever onset",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PV10996",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 4,
+      "latest_start": 6,
+      "time_unit": "day",
+      "is_T0": false
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "patients diagnosed with non-severe acute phase dengue disease that newly developed detectable signs of plasma leakage after enrollment",
+      "immport_arm_id": [
+        "ARM6498"
+      ],
+      "id": 0,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 23.7,
+          "value2": 35.5,
+          "units": "years"
+        },
+        {
+          "type": "Mean",
+          "value1": 29,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 55,
+      "biological_sex": {
+        "male": 32,
+        "female": 23
+      },
+      "geolocation": [
+        "Sri Lanka"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Occurrence of infectious disease",
+          "organism": "Dengue virus",
+          "disease_name": "dengue disease",
+          "disease_id": "DOID:12205",
+          "disease_stage": "Acute/Recent onset",
+          "disease_severity": "mild",
+          "time_point_id": 0
+        }
+      ]
+    },
+    {
+      "name": "patients diagnosed with non-severe acute phase dengue disease that did not develop detectable signs of plasma leakage during the course of the infection",
+      "immport_arm_id": [
+        "ARM6499"
+      ],
+      "id": 1,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 19,
+          "value2": 43,
+          "units": "years"
+        },
+        {
+          "type": "Mean",
+          "value1": 26,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 33,
+      "biological_sex": {
+        "male": 23,
+        "female": 10
+      },
+      "geolocation": [
+        "Sri Lanka"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Occurrence of infectious disease",
+          "organism": "Dengue virus",
+          "disease_name": "dengue disease",
+          "disease_id": "DOID:12205",
+          "disease_stage": "Acute/Recent onset",
+          "disease_severity": "mild",
+          "time_point_id": 0
+        }
+      ]
+    },
+    {
+      "name": "patients diagnosed with non-severe acute phase dengue disease",
+      "immport_arm_id": [
+        "ARM6498",
+        "ARM6499"
+      ],
+      "id": 2,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 19,
+          "value2": 43,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 88,
+      "biological_sex": {
+        "male": 55,
+        "female": 33
+      },
+      "geolocation": [
+        "Sri Lanka"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Occurrence of infectious disease",
+          "organism": "Dengue virus",
+          "disease_name": "dengue disease",
+          "disease_id": "DOID:12205",
+          "disease_stage": "Acute/Recent onset",
+          "disease_severity": "mild",
+          "time_point_id": 0
+        }
+      ]
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "CD4+CD8+ vs CD4+ gene expression in blood at 4-6 days post fever onset in dengue disease",
+      "location": [
+        {
+          "type": "Table",
+          "value": "S2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 2,
+        "tissue": "Blood",
+        "cell_base_type": "T cell CD4+",
+        "time_point": 1
+      },
+      "comparison_group": {
+        "participant_group": 2,
+        "tissue": "Blood",
+        "cell_base_type": "T cell CD8+/CD4+",
+        "time_point": 1
+      },
+      "experiment_type": "RNA sequencing assay",
+      "experiment_time_point": 1,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "CD8A",
+            "CD8B",
+            "ITGAD",
+            "NCR1",
+            "KIR2DP1",
+            "KIR2DL3",
+            "CD8B2",
+            "KIR3DL1",
+            "KLRC2",
+            "MLC1",
+            "DBN1",
+            "KLRC1",
+            "KLRK1",
+            "KIR2DS4",
+            "ATP8B4",
+            "KIR2DL1",
+            "CERCAM",
+            "KLRD1",
+            "FCGR3A",
+            "FCGR3B",
+            "KLRC3",
+            "GOLIM4",
+            "PIK3AP1",
+            "KLRC4-KLRK1",
+            "CD244",
+            "DOCK5",
+            "ZNF683",
+            "GZMB",
+            "GNLY",
+            "FAM49A",
+            "PLCG2",
+            "FASLG",
+            "SYNGR1",
+            "TIMD4",
+            "TRGV9",
+            "FGR",
+            "SPHK1",
+            "CCL5",
+            "SLAMF7",
+            "CTSW",
+            "CCL3",
+            "CLIC3",
+            "TRGV2",
+            "TTC38",
+            "ADGRG1",
+            "SLC15A4",
+            "TRGC2",
+            "C1orf21"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "FOXP3",
+            "SGK1",
+            "BEX3",
+            "CXCR5",
+            "RETREG1",
+            "ZNF573",
+            "PDE9A",
+            "FAM174B",
+            "SCML1",
+            "VIPR1",
+            "CITED4",
+            "GCNT4",
+            "LYPD3",
+            "TRBV7-1",
+            "CA6",
+            "IL6R",
+            "CMTM8",
+            "PLCL1",
+            "PLLP",
+            "ACTN1",
+            "CRB3",
+            "LIMS2",
+            "MAL",
+            "TCEA3",
+            "SULT1B1",
+            "PTK2",
+            "RGMB",
+            "TTC9",
+            "AXIN2",
+            "AK5",
+            "EPPK1",
+            "FHIT",
+            "MMP28",
+            "CELA1",
+            "ZNF563",
+            "AKR1E2",
+            "TSHZ2",
+            "KCNQ1",
+            "UBE2E2",
+            "CCR7",
+            "ANKS1B",
+            "FBLN7",
+            "DISC1",
+            "NHLRC4",
+            "GPR157",
+            "PRG4",
+            "ADTRP",
+            "GAL3ST4",
+            "WNT7A",
+            "VSIG1",
+            "LRP6",
+            "GPA33",
+            "CNN3",
+            "GIPC3",
+            "DCHS1",
+            "EDAR",
+            "ANKRD55",
+            "SDK2",
+            "DACT1",
+            "NOG",
+            "RNF175"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 1,
+      "description": "CD4+CD8+ vs CD8+ gene expression in blood at 4-6 days post fever onset in dengue disease",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "2C"
+        },
+        {
+          "type": "Table",
+          "value": "3"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 2,
+        "tissue": "Blood",
+        "cell_base_type": "T cell CD8+",
+        "time_point": 1
+      },
+      "comparison_group": {
+        "participant_group": 2,
+        "tissue": "Blood",
+        "cell_base_type": "T cell CD8+/CD4+",
+        "time_point": 1
+      },
+      "experiment_type": "RNA sequencing assay",
+      "experiment_time_point": 1,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "CD4",
+            "TNFRSF4",
+            "CCR4",
+            "NCF1"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "PTPRK",
+            "CA6",
+            "S100B",
+            "ZNF433",
+            "DSEL",
+            "MMP28",
+            "SPINK2",
+            "NT5E",
+            "MXRA8",
+            "FBLN2",
+            "CNN3",
+            "PRCD",
+            "NOG",
+            "GIPC3",
+            "REG4",
+            "SDK2"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 2,
+      "description": "T cell CD8+/CD4+ gene expression in blood in Dengue with leakage vs Dengue without",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "3C"
+        },
+        {
+          "type": "Table",
+          "value": "4"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 1,
+        "tissue": "Blood",
+        "cell_base_type": "T cell CD8+/CD4+",
+        "time_point": 1
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "tissue": "Blood",
+        "cell_base_type": "T cell CD8+/CD4+",
+        "time_point": 1
+      },
+      "experiment_type": "RNA sequencing assay",
+      "experiment_time_point": 1,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "ABO"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "DNAJB1",
+            "NR4A2",
+            "B3GNT7",
+            "SLC45A1"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    }
+  ]
+}

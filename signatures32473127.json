@@ -1,0 +1,176 @@
+{
+  "publication_text": "Targets of T Cell Responses to SARS-CoV-2 Coronavirus in Humans with COVID-19 Disease and Unexposed Individuals",
+  "publication_pmid": "32473127",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY1640",
+      "id": 0
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PE1640_01",
+      "event_type": "no exposure",
+      "event_subtype": "COVID-19; DOID:0080600",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PE1640_02",
+      "event_type": "occurrence of infectious disease",
+      "event_subtype": "COVID-19; DOID:0080600",
+      "earliest_start": -36,
+      "latest_start": -20,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 2,
+      "planned_event_id": "PE1640_03",
+      "event_type": "study enrollment",
+      "event_subtype": "study inclusion",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 3,
+      "planned_event_id": "PV8870",
+      "event_type": "specimen collection",
+      "event_subtype": "blood draw",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 4,
+      "planned_event_id": "PV8871",
+      "event_type": "specimen collection",
+      "event_subtype": "blood draw",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "SARS-CoV-2 infected individuals",
+      "immport_arm_id": [
+        "ARM5280"
+      ],
+      "is_full_arm": true,
+      "id": 0,
+      "geolocation": [
+        "US: California"
+      ],
+      "human_subjects": 20,
+      "immune_exposure": [
+        {
+          "type": "Occurrence of infectious disease",
+          "organism": "SARS-CoV-2",
+          "disease_name": "COVID-19",
+          "disease_id": "DOID:0080600",
+          "disease_stage": "post",
+          "disease_severity": "mild",
+          "time_point_id": 1
+        }
+      ],
+      "biological_sex": {
+        "male": 9,
+        "female": 11
+      },
+      "age": [
+        {
+          "type": "Median",
+          "value1": 44,
+          "units": "years"
+        },
+        {
+          "type": "Min and Max",
+          "value1": 20,
+          "value2": 64,
+          "units": "years"
+        }
+      ]
+    },
+    {
+      "name": "Healthy unexposed individuals",
+      "immport_arm_id": [
+        "ARM5281"
+      ],
+      "is_full_arm": false,
+      "id": 1,
+      "geolocation": [
+        "US: California",
+        "US"
+      ],
+      "human_subjects": 20,
+      "biological_sex": {
+        "male": 7,
+        "female": 13
+      },
+      "age": [
+        {
+          "type": "Median",
+          "value1": 31,
+          "units": "years"
+        },
+        {
+          "type": "Min and Max",
+          "value1": 20,
+          "value2": 66,
+          "units": "years"
+        }
+      ]
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "recovered from COVID-19 vs healthy controls",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "1a"
+        },
+        {
+          "type": "Figure",
+          "value": "1b"
+        },
+        {
+          "type": "Figure",
+          "value": "1c"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 1,
+        "time_point": 4
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "time_point": 3
+      },
+      "experiment_type": "Swab test viral PCR",
+      "response_component": [
+        {
+          "type": "protein",
+          "identifier": [
+            "IgG",
+            "IgM",
+            "IgA"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    }
+  ]
+}

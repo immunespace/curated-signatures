@@ -1,0 +1,1235 @@
+{
+  "publication_text": "Metabolomic and transcriptomic signatures of influenza vaccine response in healthy young and older adults",
+  "publication_pmid": "35996998",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY1968",
+      "id": 0
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PV10967",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PE1968_04",
+      "event_type": "vaccination",
+      "event_subtype": "2010-2011 and 2011-2012 seasonal influenza vaccination",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 2,
+      "planned_event_id": "PV10968",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 2,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 3,
+      "planned_event_id": "PV10969",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 7,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 4,
+      "planned_event_id": "PV10970",
+      "event_type": "specimen collection",
+      "event_subtype": "peripheral blood draw",
+      "earliest_start": 28,
+      "time_unit": "day",
+      "is_T0": false
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "Young adult low responders",
+      "immport_arm_id": [
+        "ARM6408"
+      ],
+      "is_full_arm": false,
+      "id": 0,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0001236",
+          "time_point_id": 1
+        }
+      ]
+    },
+    {
+      "name": "Young adult high responders",
+      "immport_arm_id": [
+        "ARM6408"
+      ],
+      "is_full_arm": false,
+      "id": 1,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0001236",
+          "time_point_id": 1
+        }
+      ]
+    },
+    {
+      "name": "Older adult low responders",
+      "immport_arm_id": [
+        "ARM6409"
+      ],
+      "is_full_arm": false,
+      "id": 2,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 65,
+          "units": "years"
+        }
+      ],
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0001236",
+          "time_point_id": 1
+        }
+      ]
+    },
+    {
+      "name": "Older adult high responders",
+      "immport_arm_id": [
+        "ARM6409"
+      ],
+      "is_full_arm": false,
+      "id": 3,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 65,
+          "units": "years"
+        }
+      ],
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0001236",
+          "time_point_id": 1
+        }
+      ]
+    },
+    {
+      "name": "Young adults",
+      "immport_arm_id": [
+        "ARM6408"
+      ],
+      "is_full_arm": true,
+      "id": 4,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 21,
+          "value2": 30,
+          "units": "years"
+        },
+        {
+          "type": "Median",
+          "value1": 27,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 16,
+      "biological_sex": {
+        "male": 7,
+        "female": 9
+      },
+      "race": {
+        "Asian": 2,
+        "White": 12,
+        "Other": 2
+      },
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0001236",
+          "time_point_id": 1
+        }
+      ]
+    },
+    {
+      "name": "Older adult high responders",
+      "immport_arm_id": [
+        "ARM6409"
+      ],
+      "is_full_arm": true,
+      "id": 5,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 65,
+          "units": "years"
+        },
+        {
+          "type": "Median",
+          "value1": 72,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 17,
+      "biological_sex": {
+        "male": 7,
+        "female": 10
+      },
+      "race": {
+        "Asian": 1,
+        "Black or African American": 2,
+        "White": 14
+      },
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO:0001236",
+          "time_point_id": 1
+        }
+      ]
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "Baseline young vs older plasma metabolites",
+      "location": [
+        {
+          "type": "Supplementary Figure",
+          "value": "S2"
+        },
+        {
+          "type": "Text",
+          "value": "Subsection 2.1"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 5,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Untargeted metabolomics analysis",
+      "experiment_time_point": 0,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "fatty acids",
+            "lineolic acids",
+            "glycerophospholipids"
+          ],
+          "behavior": "Down"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "amino acids",
+            "triacylglycerols"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 1,
+      "description": "NLRP3 down in the young on day 7 following influenza vaccine vs day 0 in plasma",
+      "location": [
+        {
+          "type": "Supplementary Figure",
+          "value": "S4d"
+        },
+        {
+          "type": "Text",
+          "value": "Subsection 2.2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 4,
+        "time_point": 3,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Gene expression analysis",
+      "experiment_time_point": 3,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "NLRP3"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 2,
+      "description": "NLRP3 down in the young on day 28 following influenza vaccine vs day 0 in plasma",
+      "location": [
+        {
+          "type": "Supplementary Figure",
+          "value": "S4d"
+        },
+        {
+          "type": "Text",
+          "value": "Subsection 2.2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 4,
+        "time_point": 4,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Gene expression analysis",
+      "experiment_time_point": 4,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "NLRP3"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 3,
+      "description": "NLRP3 down in older adults on day 2 following influenza vaccine vs day 0 in plasma",
+      "location": [
+        {
+          "type": "Supplementary Figure",
+          "value": "S4d"
+        },
+        {
+          "type": "Text",
+          "value": "Subsection 2.2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 5,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 5,
+        "time_point": 2,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Gene expression analysis",
+      "experiment_time_point": 2,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "NLRP3"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 4,
+      "description": "Gene expression changes in older adults on day 7 following influenza vaccine vs day 0 in plasma",
+      "location": [
+        {
+          "type": "Supplementary Figure",
+          "value": "S4d"
+        },
+        {
+          "type": "Text",
+          "value": "Subsection 2.2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 5,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 5,
+        "time_point": 3,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Gene expression analysis",
+      "experiment_time_point": 3,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "NLRP3"
+          ],
+          "behavior": "Down"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "JUN",
+            "FOS"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 5,
+      "description": "NLRP3 down in older adults on day 28 following influenza vaccine vs day 0 in plasma",
+      "location": [
+        {
+          "type": "Supplementary Figure",
+          "value": "S4d"
+        },
+        {
+          "type": "Text",
+          "value": "Subsection 2.2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 5,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 5,
+        "time_point": 4,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Gene expression analysis",
+      "experiment_time_point": 4,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "NLRP3"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 6,
+      "description": "Metabolites for young on day 7 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 4,
+        "time_point": 3,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 3,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Guanosine",
+            "ADP",
+            "ATP",
+            "3-Phosphoglyceic acid",
+            "C41:0 TAG"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Amino acids, peptides, and analogues",
+            "Fatty acid esters",
+            "Steroid esters",
+            "Fatty acids and conjugates",
+            "Triradylglycerols",
+            "8,11,14-Eicosatrienoic acid",
+            "Docosahexaenoic acid",
+            "C10:2 carnitine",
+            "C8 carnitine",
+            "C10 carnitine",
+            "C12:1 carnitine",
+            "C14:1 carnitine",
+            "C12 carnitine",
+            "C14:2 carnitine",
+            "C9 carnitine",
+            "taurolithocholate"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 7,
+      "description": "Metabolites for young on day 28 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 4,
+        "time_point": 4,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 4,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Amino acids, peptides, and analogues",
+            "Sarcosine",
+            "L-Aspartic Acid"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Triradylglycerols",
+            "Fatty acid esters",
+            "Steroid esters",
+            "Fatty acids and conjugates"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 8,
+      "description": "Metabolites for older adults on day 2 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 4,
+        "time_point": 2,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 2,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "C44:2 TAG",
+            "C43:2 TAG",
+            "C48:5 TAG",
+            "C48:4 TAG",
+            "C46:4 TAG",
+            "C46:3 TAG"
+          ],
+          "behavior": "Down"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Amino acids, peptides, and analogues",
+            "Steroid esters",
+            "Triradylglycerols",
+            "Fatty acids and conjugates",
+            "L-Threonine",
+            "L-serine",
+            "Glycine",
+            "Betaine",
+            "L-Methionine",
+            "L-Alanine",
+            "L-Glutamic acid",
+            "L-Arginine",
+            "Creatine",
+            "glycolithocholate",
+            "C5-DC carnitine",
+            "C16:1 CE",
+            "C20:3 CE",
+            "C18:3 CE",
+            "C20:5 CE",
+            "C14:0 CE",
+            "C18:1 CE",
+            "C16:0 CE",
+            "C18:2 CE",
+            "C20:4 CE",
+            "C22:4 CE",
+            "C22:6 CE",
+            "C51:2 TAG"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 9,
+      "description": "Metabolites for older adults on day7 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 4,
+        "time_point": 3,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 3,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "C44:1 TAG",
+            "C44:0 TAG",
+            "C42:0 TAG",
+            "C44:2 TAG",
+            "C43:2 TAG",
+            "C43:1 TAG",
+            "C43:0 TAG",
+            "C41:0 TAG",
+            "C48:5 TAG",
+            "C45:3 TAG",
+            "C48:4 TAG",
+            "C50:6 TAG",
+            "C51:1 TAG",
+            "C49:2 TAG",
+            "C48:2 TAG",
+            "C48:3 TAG",
+            "C52:0 TAG",
+            "C45:2 TAG",
+            "C48:1 TAG",
+            "C50:0 TAG",
+            "C49:1 TAG",
+            "C47:2 TAG",
+            "C49:0 TAG",
+            "C47:0 TAG",
+            "C45:1 TAG",
+            "C51:0 TAG",
+            "C46:4 TAG",
+            "C46:3 TAG",
+            "C46:2 TAG",
+            "C48:0 TAG",
+            "C46:1 TAG",
+            "C47:1 TAG",
+            "C46:0 TAG"
+          ],
+          "behavior": "Down"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Triradylglycerols",
+            "Fatty acids and conjugates"
+          ],
+          "behavior": "Changed"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Amino acids, peptides, and analogues",
+            "Fatty acid esters",
+            "Steroid esters",
+            "Inosine",
+            "L-Glutamine",
+            "Glycine",
+            "Uric acid",
+            "Xanthine",
+            "Hypoxanthine",
+            "L-Threonine",
+            "L-serine",
+            "Glycine",
+            "Dimethylglycine",
+            "Betaine",
+            "L-Methionine",
+            "L-Alanine",
+            "L-Arginine",
+            "Creatine",
+            "Sarcosine",
+            "L-Cysteine",
+            "3-Phosphoglyceric acid",
+            "glycolithocholate",
+            "ursodeoxycholate",
+            "hyodeoxycholate",
+            "C4-OH carnitine",
+            "C10 carnitine",
+            "C12:1 carnitine",
+            "C14:1 carnitine",
+            "C12 carnitine",
+            "C14:2 carnitine",
+            "C3-DC-CH3 carnitine",
+            "C5-DC carnitine",
+            "C18 carnitine",
+            "C18:1 carnitine",
+            "C2 carnitine",
+            "C5:1 carnitine",
+            "C16:1 CE",
+            "C20:3 CE",
+            "C18:3 CE",
+            "C20:5 CE",
+            "C14:0 CE",
+            "C18:1 CE",
+            "C16:0 CE",
+            "C18:2 CE",
+            "C20:4 CE",
+            "C18:0 CE",
+            "C22:4 CE",
+            "C22:6 CE",
+            "C22:5 CE",
+            "C58:10 TAG",
+            "C58:7 TAG",
+            "C56:8 TAG",
+            "C58:11 TAG",
+            "C56:7 TAG",
+            "C56:5 TAG",
+            "C56:6 TAG",
+            "C56:9 TAG",
+            "C56:4 TAG",
+            "C54:4 TAG",
+            "C60:12 TAG",
+            "C58:9 TAG"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 10,
+      "description": "Metabolites for older adults on day 28 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "2"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 4,
+        "time_point": 4,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 4,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "C44:1 TAG",
+            "C44:0 TAG",
+            "C42:0 TAG",
+            "C44:2 TAG",
+            "C43:2 TAG",
+            "C43:1 TAG",
+            "C43:0 TAG",
+            "C41:0 TAG",
+            "C48:3 TAG",
+            "C52:0 TAG",
+            "C45:2 TAG",
+            "C48:1 TAG",
+            "C50:0 TAG",
+            "C49:0 TAG",
+            "C47:0 TAG",
+            "C51:0 TAG",
+            "C46:4 TAG",
+            "C46:3 TAG",
+            "C46:2 TAG",
+            "C48:0 TAG",
+            "C46:1 TAG",
+            "C46:0 TAG"
+          ],
+          "behavior": "Down"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Triradylglycerols"
+          ],
+          "behavior": "Changed"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Amino acids, peptides, and analogues",
+            "Fatty acids and conjugates",
+            "Steroid esters",
+            "AMP",
+            "Inosine",
+            "Glycine",
+            "Xanthine",
+            "Hypoxanthine",
+            "ADP",
+            "ATP",
+            "Adenosine",
+            "L-Threonine",
+            "L-serine",
+            "Glycine",
+            "L-Arginine",
+            "Sarcosine",
+            "ADP",
+            "ATP",
+            "C5-DC carnitine",
+            "C56:8 TAG",
+            "C58:9 TAG"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 11,
+      "description": "Metabolites for high responding younger adults on day 28 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "3"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 1,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 1,
+        "time_point": 4,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 4,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "L-Tyrosine",
+            "L-Tryptophan",
+            "5-Hydroxy-L-tryptophan",
+            "L-Cystine",
+            "S-methyl-L-Cysteine-S-oxide",
+            "Sarcosine",
+            "L-Aspartic acid",
+            "Indoleacetic acid"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Oleoyl glycine",
+            "Cinnamoylglycine",
+            "Docosapentaenoic acid (22n-6)",
+            "Oleic acid",
+            "Gamma-Linolenic acid",
+            "Linoleic acid",
+            "alpha-Linolenic acid",
+            "Adrenic acid",
+            "Docosahexaenoic acid",
+            "Arachidonic acid",
+            "8,11,14-Eicosatrienoic acid",
+            "Palmitoleic acid"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 12,
+      "description": "Metabolites for low responding younger adults on day 7 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "3"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "time_point": 3,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 3,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "L-Arginine",
+            "Glutamyllysine",
+            "L-Glutamic acid",
+            "L-Isoleucine",
+            "N-Acetylgutamic acid",
+            "Serotonin"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Adrenic acid",
+            "Docosahexaenoic acid",
+            "Arachidonic acid",
+            "Eicosapentaenoic acid"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 13,
+      "description": "Metabolites for high responding older adults on day 2 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "4"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 3,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 3,
+        "time_point": 2,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 2,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "C20:5 CE",
+            "C20:4 CE",
+            "C18:3 CE",
+            "C16:1 CE",
+            "C18:1 CE",
+            "C18:2 CE",
+            "C22:4 CE",
+            "C14:0 CE",
+            "C22:6 CE",
+            "PE(P-16:0/18:2(9Z, 12Z))",
+            "PE(P-18:1(11Z)/20:5(5Z,8Z,11Z,14Z,17Z))",
+            "PE(P-18:0/20:5(5Z,8Z,11Z,14Z,17Z))",
+            "LysoPC(18:1(9Z))",
+            "PE(16:0/P-18:1(9Z))",
+            "PC(P18:1(9Z)/20:4(5Z,8Z,11Z,14Z))",
+            "PC(P-16:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",
+            "PC(P-16:0/20:4(5Z,8Z,11Z,14Z))",
+            "PC(14:0/16:1(9Z))",
+            "PC(14:0/16:0)",
+            "PE(16:0/18:0)",
+            "LysoPC(14:0/0:0)"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Capric acid",
+            "Caprylic acid",
+            "PE(16:0/18:2(9Z,12Z))"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 14,
+      "description": "Metabolites for high responding older adults on day 7 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "4"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 3,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 3,
+        "time_point": 3,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 3,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Malonic acid",
+            "C20:5 CE",
+            "C20:3 CE",
+            "C20:4 CE",
+            "C18:3 CE",
+            "C16:1 CE",
+            "C18:1 CE",
+            "C18:0 CE",
+            "C16:0 CE",
+            "C18:2 CE",
+            "C22:4 CE",
+            "C14:0 CE",
+            "C22:6 CE",
+            "C22:5 CE",
+            "PE(P-18:1(9Z)/18:2(9Z, 12Z))",
+            "PE(P-16:0/18:2(9Z, 12Z))",
+            "PC(P-16:0/20:4(8Z,11Z,14Z,17Z))",
+            "PE(P-18:1(11Z)/20:5(5Z,8Z,11Z,14Z,17Z))",
+            "PE(P-18:0/20:5(5Z,8Z,11Z,14Z,17Z))",
+            "LysoPC(18:1(9Z))",
+            "PE(P-18:0/20:4(8Z,11Z,14Z,17Z))",
+            "PE(16:0/P-18:1(9Z))",
+            "PE(P-18:1(11Z)/18:3(6Z,9Z,12Z))",
+            "PC(P-18:0/18:1(9Z))",
+            "PC(P-16:0/18:0)",
+            "PC(P18:1(9Z)/20:4(5Z,8Z,11Z,14Z))",
+            "PC(P-18:1(9Z)/18:2(9Z,12Z))",
+            "PC(P-18:0/20:3(8Z,11Z,14Z))",
+            "PC(P-16:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",
+            "PC(P-16:0/20:4(5Z,8Z,11Z,14Z))"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Capric acid",
+            "Caprylic acid"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 15,
+      "description": "Metabolites for high responding older adults on day 28 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "4"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 3,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 3,
+        "time_point": 4,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 4,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "C18:0 CE",
+            "C18:2 CE",
+            "PE(P-18:0/20:5(5Z,8Z,11Z,14Z,17Z))",
+            "PE(P-18:0/20:4(8Z,11Z,14Z,17Z))",
+            "PE(16:0/P-18:1(9Z))",
+            "PE(P-18:1(11Z)/18:3(6Z,9Z,12Z))",
+            "PC(P-18:0/18:1(9Z))",
+            "PC(P-16:0/18:0)",
+            "PC(P-18:0/18:0)",
+            "PC(P18:1(9Z)/20:4(5Z,8Z,11Z,14Z))",
+            "PC(P-18:1(9Z)/18:2(9Z,12Z))",
+            "PC(P-16:0/20:4(5Z,8Z,11Z,14Z))",
+            "PE(18:0/20:4(5Z,8Z,11Z,14Z))",
+            "PC(18:0/18:0)"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "metabolite",
+          "identifier": [
+            "Caprylic acid",
+            "PE(18:0/18:2(9Z,12Z))",
+            "PE(16:0/18:2(9Z,12Z))"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 16,
+      "description": "Metabolites for low responding older adults on day 2 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "4"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 2,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 2,
+        "time_point": 2,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 2,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "C18:3 CE",
+            "C16:0 CE"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 17,
+      "description": "Metabolites for low responding older adults on day 7 following influenza vaccination vs day 0",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "4"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 2,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 2,
+        "time_point": 3,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Illumina beadChips microarray",
+      "experiment_time_point": 3,
+      "response_component": [
+        {
+          "type": "metabolite",
+          "identifier": [
+            "C18:3 CE"
+          ],
+          "behavior": "Up"
+        }
+      ],
+      "repository": 0
+    }
+  ]
+}

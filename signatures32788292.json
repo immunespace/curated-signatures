@@ -1,0 +1,449 @@
+{
+  "publication_text": "Systems biological assessment of immunity to mild versus severe COVID-19 infection in humans",
+  "publication_pmid": "32788292",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY1669",
+      "id": 0
+    }
+  ],
+  "time_point": [],
+  "participant_group": [
+    {
+      "name": "Healthy individuals from Atlanta",
+      "immport_arm_id": [
+        "ARM5346_01"
+      ],
+      "paper_description": [
+        "we evaluated cytokines and chemokines in plasma samples from the Atlanta cohort using the Olink multiplex inflammation panel",
+        "compared to healthy subjects",
+        "n = 18 healthy"
+      ],
+      "immport_data_filter": {
+        "operator": "and",
+        "value": [
+          {
+            "operator": "eq",
+            "table": "immune_exposure",
+            "field": "DISEASE_PREFERRED",
+            "value": "healthy"
+          },
+          {
+            "operator": "eq",
+            "table": "experiment",
+            "field": "NAME",
+            "value": "O-link"
+          }
+        ]
+      },
+      "is_full_arm": false,
+      "id": 0,
+      "human_subjects": 18,
+      "geolocation": [
+        "US: Georgia"
+      ],
+      "immune_exposure": []
+    },
+    {
+      "name": "COVID-19 patients from Atlanta",
+      "immport_arm_id": [
+        "ARM5346_02",
+        "ARM5346_03",
+        "ARM5346_04",
+        "ARM5346_05"
+      ],
+      "paper_description": [
+        "we evaluated cytokines and chemokines in plasma samples from the Atlanta cohort using the Olink multiplex inflammation panel",
+        "in COVID-19 infected individuals",
+        "4 moderate, 18 severe, 12 ICU, 2 convalescent"
+      ],
+      "immport_data_filter": {
+        "operator": "and",
+        "value": [
+          {
+            "operator": "eq",
+            "table": "immune_exposure",
+            "field": "DISEASE_PREFERRED",
+            "value": "COVID-19"
+          },
+          {
+            "operator": "eq",
+            "table": "experiment",
+            "field": "NAME",
+            "value": "O-link"
+          }
+        ]
+      },
+      "is_full_arm": false,
+      "id": 1,
+      "human_subjects": 36,
+      "geolocation": [
+        "US: Georgia"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Occurrence of infectious disease",
+          "organism": "SARS-CoV2",
+          "disease_name": "COVID-19",
+          "disease_id": "DOID:0080600"
+        }
+      ]
+    },
+    {
+      "name": "5 Healthy individuals from Atlanta",
+      "paper_description": [
+        "we used cellular indexing of transcriptomes and epitopes by sequencing (CITE-seq) and profiled the gene and protein expression in PBMC samples of COVID-19–infected individuals. Cryopreserved PBMC samples from a total of 12 age-matched subjects in the Atlanta cohort (five healthy controls"
+      ],
+      "immport_arm_id": [
+        "ARM5346_01"
+      ],
+      "immport_data_filter": {
+        "operator": "and",
+        "value": [
+          {
+            "operator": "eq",
+            "table": "immune_exposure",
+            "field": "DISEASE_PREFERRED",
+            "value": "healthy"
+          },
+          {
+            "operator": "eq",
+            "table": "experiment",
+            "field": "NAME",
+            "value": "CITE-seq"
+          }
+        ],
+        "SUBJECT_ACCESSION": [
+          "SUB255604",
+          "SUB255607",
+          "SUB255611",
+          "SUB255612",
+          "SUB255664"
+        ]
+      },
+      "is_full_arm": false,
+      "id": 2,
+      "human_subjects": 5,
+      "geolocation": [
+        "US: Georgia"
+      ],
+      "immune_exposure": []
+    },
+    {
+      "name": "7 COVID-19 patients from Atlanta",
+      "immport_arm_id": [
+        "ARM5346_02",
+        "ARM5346_03",
+        "ARM5346_04"
+      ],
+      "paper_description": [
+        "we used cellular indexing of transcriptomes and epitopes by sequencing (CITE-seq) and profiled the gene and protein expression in PBMC samples of COVID-19–infected individuals. Cryopreserved PBMC samples from a total of 12 age-matched subjects in the Atlanta cohort",
+        "seven COVID-19 patients"
+      ],
+      "immport_data_filter": {
+        "operator": "and",
+        "value": [
+          {
+            "operator": "eq",
+            "table": "immune_exposure",
+            "field": "DISEASE_PREFERRED",
+            "value": "COVID-19"
+          },
+          {
+            "operator": "eq",
+            "table": "experiment",
+            "field": "NAME",
+            "value": "CITE-seq"
+          }
+        ],
+        "SUBJECT_ACCESSION": [
+          "SUB255613",
+          "SUB255616",
+          "SUB255618",
+          "SUB255619",
+          "SUB255670",
+          "SUB255676",
+          "SUB255769"
+        ]
+      },
+      "is_full_arm": false,
+      "id": 3,
+      "human_subjects": 7,
+      "geolocation": [
+        "US: Georgia"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Occurrence of infectious disease",
+          "organism": "SARS-CoV2",
+          "disease_name": "COVID-19",
+          "disease_id": "DOID:0080600"
+        }
+      ]
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "COVID-19 patients vs healthy plasma gene expression",
+      "location": [
+        {
+          "type": "Supplementary Figure",
+          "value": "S6A"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 1,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Multiplex analysis of cytokines in the plasma",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "CASP.8",
+            "TNF-alpha",
+            "IL.18R1",
+            "CSF1",
+            "CCL4",
+            "MCP.2",
+            "CCL19",
+            "CXCL1",
+            "CXCL11",
+            "CCL3",
+            "IL18",
+            "TGF.alpha",
+            "IL8",
+            "MMP.1",
+            "CCL20",
+            "CXCL5",
+            "X4E.BP1",
+            "MCP.3",
+            "CXCL10",
+            "TNFSF14",
+            "HGF",
+            "SM",
+            "EN.RAGE",
+            "IL6"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "FGF.19"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 1,
+      "description": "COVID-19 patients vs healthy PBMC gene expression",
+      "location": [
+        {
+          "type": "Supplementary Figure",
+          "value": "S10"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 2,
+        "tissue": "PBMC"
+      },
+      "comparison_group": {
+        "participant_group": 3,
+        "tissue": "PBMC"
+      },
+      "experiment_type": "CITE-seq",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "IL7R",
+            "TRAC",
+            "CD3E",
+            "CD3D",
+            "LTB",
+            "CD3G",
+            "RPL30",
+            "LDHB",
+            "TRBC2",
+            "TRBC1",
+            "GNLY",
+            "NKG7",
+            "FGFBP2",
+            "PRF1",
+            "CCL4",
+            "SPON2",
+            "KLRD1",
+            "GZMA",
+            "CD247",
+            "KLRB1",
+            "GZMH",
+            "IL32",
+            "TRGC2",
+            "CCL5",
+            "FCN1",
+            "VCAN",
+            "CD14",
+            "MNDA",
+            "LYZ",
+            "TYROBP",
+            "CTSS",
+            "S100A9",
+            "CXCL8",
+            "IL1B",
+            "FCGR3A",
+            "CDKN1C",
+            "LST1",
+            "MS4A7",
+            "AIF1",
+            "CFD",
+            "SMIM25",
+            "LYPD2",
+            "SERPINA1",
+            "COTL1",
+            "FCER1A",
+            "HLA-DQA1",
+            "HLA-DQB1",
+            "CLEC10A,HLA-DRA",
+            "HLA-DRB5",
+            "HLA-DPA1",
+            "CST3",
+            "HLA-DPB1",
+            "HLA-DRB1",
+            "NRGN",
+            "CAVIN2",
+            "PPBP",
+            "PF4",
+            "GNG11",
+            "HIST1H2AC",
+            "TUBB1",
+            "MAP3K7CL",
+            "TSC22D1",
+            "RGS18",
+            "CD79A",
+            "MS4A1",
+            "CD79B",
+            "RALGPS2",
+            "BANK1",
+            "TCL1A",
+            "LINC00926",
+            "TNFRSF13C",
+            "CD37",
+            "MTRNR2L12",
+            "MTRNR2L8",
+            "NEAT1",
+            "SLC11A1",
+            "LILRB2",
+            "NAMPT",
+            "ZEB2",
+            "DMXL2",
+            "AC020656.1",
+            "POU2F2",
+            "LYST",
+            "PPP1R14B",
+            "IRF7",
+            "TCF4",
+            "GZMB",
+            "CCDC50",
+            "PLD4",
+            "TPM2",
+            "IRF8",
+            "UGCG",
+            "PTGDS",
+            "IFITM3",
+            "PLBD1",
+            "APOBEC3A",
+            "IFI6",
+            "S100A8",
+            "MALAT1",
+            "SYNE2",
+            "SYNE1",
+            "RNF213",
+            "UTRN",
+            "ZAP70",
+            "RORA",
+            "MACF1",
+            "NKTR",
+            "PLCG2",
+            "JCHAIN",
+            "MZB1",
+            "TNFRSF17",
+            "FKBP11",
+            "ITM2C",
+            "HSP90B1",
+            "SEC11C",
+            "XBP1",
+            "PPIB",
+            "MYDGF",
+            "HBG2",
+            "ITGA2B",
+            "PRKAR2B",
+            "CLEC1B",
+            "CST7",
+            "TREML1",
+            "LMAN1",
+            "PDIA6",
+            "HSPA5",
+            "LGALS2",
+            "HBB",
+            "HBA2",
+            "HBA1",
+            "HBM",
+            "SLC25A37",
+            "HBD",
+            "ALAS2",
+            "AHSP",
+            "SLC25A39",
+            "GYPC",
+            "IFI44L",
+            "ISG15",
+            "CD69",
+            "IFI44L",
+            "ISG15",
+            "CD69",
+            "IFITM1",
+            "SOX4",
+            "SPINK2",
+            "CDK6",
+            "AC084033.3",
+            "PRSS57",
+            "FAM30A",
+            "NPM1",
+            "ZFAS1",
+            "SNHG7",
+            "HSP90AB1",
+            "STMN1",
+            "MK167",
+            "TYMS",
+            "HIST1H1B",
+            "HMGB2",
+            "TUBA1B",
+            "TUBB",
+            "HIST1H4C",
+            "CD74",
+            "RETN",
+            "RNASE2",
+            "LGALS1",
+            "C1orf54",
+            "CPVL"
+          ],
+          "behavior": "Changed"
+        }
+      ],
+      "repository": 0
+    }
+  ]
+}

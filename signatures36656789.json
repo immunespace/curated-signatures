@@ -1,0 +1,1264 @@
+{
+  "publication_text": "Platelet response to influenza vaccination reflects effects of aging",
+  "publication_pmid": "36656789",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY1393",
+      "id": 0
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PV7260",
+      "event_type": "specimen collection",
+      "event_subtype": "baseline blood collection",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PE1393_01",
+      "evnt_type": "vaccination",
+      "event_subtype": "2018/2019 seasonal trivalent influenza vaccination",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 2,
+      "planned_event_id": "PV7261",
+      "event_type": "specimen collection",
+      "event_subtype": "day 2 follow-up blood collection",
+      "earliest_start": 2,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 3,
+      "planned_event_id": "PV7262",
+      "event_type": "specimen collection",
+      "event_subtype": "day 7 follow-up blood collection",
+      "earliest_start": 7,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 4,
+      "planned_event_id": "PV7263",
+      "event_type": "specimen collection",
+      "event_subtype": "day 28 follow-up blood collection",
+      "earliest_start": 28,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 5,
+      "planned_event_id": "PV7264",
+      "event_type": "specimen collection",
+      "event_subtype": "day 70 follow-up blood collection",
+      "earliest_start": 70,
+      "time_unit": "day",
+      "is_T0": false
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "17 low responders, all age groups",
+      "immport_arm_id": [
+        "ARM4685",
+        "ARM4686",
+        "ARM4687"
+      ],
+      "is_full_arm": false,
+      "id": 0,
+      "human_subjects": 17,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "21 high responders, all age groups",
+      "immport_arm_id": [
+        "ARM4685",
+        "ARM4686",
+        "ARM4687"
+      ],
+      "is_full_arm": false,
+      "id": 1,
+      "human_subjects": 21,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "Female younger adults",
+      "immport_arm_id": [
+        "ARM4686"
+      ],
+      "is_full_arm": false,
+      "id": 2,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "Male younger adults",
+      "immport_arm_id": [
+        "ARM4686"
+      ],
+      "is_full_arm": false,
+      "id": 3,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "9 low responders, younger adults",
+      "immport_arm_id": [
+        "ARM4686"
+      ],
+      "is_full_arm": false,
+      "id": 4,
+      "human_subjects": 9,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "7 high responders, younger adults",
+      "immport_arm_id": [
+        "ARM4686"
+      ],
+      "is_full_arm": false,
+      "id": 5,
+      "human_subjects": 7,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "Female, community-dwelling older adults (non-frail)",
+      "immport_arm_id": [
+        "ARM4685"
+      ],
+      "is_full_arm": false,
+      "id": 6,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "Male, community-dwelling older adults (non-frail)",
+      "immport_arm_id": [
+        "ARM4685"
+      ],
+      "is_full_arm": false,
+      "id": 7,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "8 low responders, community-dwelling older adults (non-frail)",
+      "immport_arm_id": [
+        "ARM4685"
+      ],
+      "is_full_arm": false,
+      "id": 8,
+      "human_subjects": 8,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "5 high responders, community-dwelling older adults (non-frail)",
+      "immport_arm_id": [
+        "ARM4685"
+      ],
+      "is_full_arm": false,
+      "id": 9,
+      "human_subjects": 5,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "Female, Skilled Nursing Facility older adults (increased frail)",
+      "immport_arm_id": [
+        "ARM4687"
+      ],
+      "is_full_arm": false,
+      "id": 10,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "Male, Skilled Nursing Facility older adults (increased frail)",
+      "immport_arm_id": [
+        "ARM4687"
+      ],
+      "is_full_arm": false,
+      "id": 11,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "4 low responders, skilled nursing facility older adults (increased frail)",
+      "immport_arm_id": [
+        "ARM4687"
+      ],
+      "is_full_arm": false,
+      "id": 12,
+      "human_subjects": 4,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    },
+    {
+      "name": "5 high responders, skilled nursing facility older adults (increased frail)",
+      "immport_arm_id": [
+        "ARM4687"
+      ],
+      "is_full_arm": false,
+      "id": 13,
+      "human_subjects": 5,
+      "geolocation": [
+        "US: Connecticut"
+      ],
+      "immune_exposure": [
+        {
+          "type": "Vaccination",
+          "organism": "VO_0001236"
+        }
+      ]
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "Pre-vaccination differences between those who will be high responders and low responders to the flu vaccine: all age, all gender",
+      "location": [
+        {
+          "type": "Table",
+          "value": "S7"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 1,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Hemagglutination inhibition assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "THRB",
+            "BLZF1",
+            "MPIG6B",
+            "CCR1",
+            "TRPV3",
+            "SLC25A32",
+            "ZNF30",
+            "ACKR3",
+            "HRH4",
+            "CFAP54",
+            "LYPD5",
+            "ACTA1"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "SYMBOL",
+            "MAD2L2",
+            "HNRNPA1L2",
+            "ARMH4",
+            "HOXB4",
+            "LEXM",
+            "SIM1",
+            "KHDRBS3"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 1,
+      "description": "Pre-vaccination differences between Male vs female younger adults",
+      "location": [
+        {
+          "type": "Table",
+          "value": "S8"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 2,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 3,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Hemagglutination inhibition assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "HLA-B",
+            "TLR5",
+            "OLR1",
+            "DCST1",
+            "KREMEN1",
+            "KIAA1211L",
+            "CRACR2B",
+            "TPH1",
+            "NRXN3",
+            "FERMT1",
+            "PRR22",
+            "ARHGEF37",
+            "TPBGL",
+            "SOAT2"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "JUN",
+            "B2M",
+            "TMEM91",
+            "CLEC2L",
+            "UNC5B"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 2,
+      "description": "Pre-vaccination differences between those who will be high responders and low responders to the flu vaccine: young adults",
+      "location": [
+        {
+          "type": "Table",
+          "value": "S8"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 4,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 5,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Hemagglutination inhibition assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "VPS37B",
+            "NT5C2",
+            "SH3BP5L",
+            "FAM81B",
+            "OMA1",
+            "AP3S1",
+            "MPIG6B",
+            "PCTP",
+            "ZNF22",
+            "IFIT1",
+            "ME1",
+            "FXYD7",
+            "TMEM67",
+            "MCC",
+            "CDKN2B",
+            "PLTP",
+            "PDGFRA",
+            "LONRF1",
+            "IL1RN",
+            "LILRB3",
+            "RSPH9",
+            "SPINK5",
+            "HLA-DQB1",
+            "TRIM16L",
+            "KBTBD12",
+            "BMPR1B",
+            "LRP3",
+            "SLIT1",
+            "PHLDB1",
+            "GJA1",
+            "FAM151B",
+            "EMCN",
+            "FKBP9",
+            "COL25A1",
+            "GUCA1B",
+            "STK33",
+            "NOTCH2NLA",
+            "CHMP4C",
+            "DCLK2",
+            "ACKR3",
+            "LONRF2",
+            "RETN",
+            "GPT2",
+            "HSPA4L",
+            "GSDMA",
+            "TRPV3",
+            "FRMPD2",
+            "SERPINI2",
+            "PTGR2",
+            "GPI",
+            "FAT2",
+            "DCLK1",
+            "CP",
+            "PTPRT",
+            "PTH2R",
+            "ABCB5",
+            "HSPB3",
+            "UBE2L5",
+            "LYPD5",
+            "PEBP4",
+            "DRC3",
+            "CFAP54",
+            "FZD6",
+            "SLC12A5",
+            "ATP1A3",
+            "COL5A1",
+            "FOXI2",
+            "RADIL",
+            "PGAM2",
+            "VIP",
+            "SLC43A2",
+            "BIK",
+            "BAIAP2L1",
+            "LRRC9",
+            "ENPEP",
+            "SHC3",
+            "NYNRIN",
+            "CALN1"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "TULP4",
+            "STX16",
+            "CNOT9",
+            "IARS",
+            "TNFRSF10B",
+            "ZDHHC6",
+            "DDX1",
+            "XPO5",
+            "IKBKE",
+            "IDH3A",
+            "FHIT",
+            "KCNQ1",
+            "MT2A",
+            "PREP",
+            "PDK4",
+            "ZNF43",
+            "TC2N",
+            "SMIM14",
+            "CDC23",
+            "SCAMP4",
+            "TTLL4",
+            "MAD2L2",
+            "ZFYVE19",
+            "EML6",
+            "ZBTB26",
+            "DNAJC24",
+            "TAF4",
+            "FKRP",
+            "WDR12",
+            "LYRM9",
+            "SLC35C1",
+            "ZNF10",
+            "MRPL30",
+            "MYCL",
+            "SLFN12",
+            "C17orf51",
+            "SLC25A22",
+            "CASTOR2",
+            "RTN4IP1",
+            "ZMYND19",
+            "HCAR3",
+            "CAV1",
+            "SEPTIN8",
+            "YBEY",
+            "GSTM5",
+            "HLA-F",
+            "ARMH4",
+            "DNAL4",
+            "PIGU",
+            "S1PR2",
+            "GAS6",
+            "CCDC58",
+            "ANKRD18A",
+            "MARS2",
+            "FAM161B",
+            "GAS8",
+            "HCN2",
+            "TNFRSF10D",
+            "HIST1H4K",
+            "TRIB3",
+            "COMTD1",
+            "WDR97",
+            "ANKRD31",
+            "HERC2",
+            "AL590327.1",
+            "XYLB",
+            "WDCP",
+            "GLI3",
+            "CCR3",
+            "PTPRB",
+            "SDF2L1",
+            "KATNAL2",
+            "SETMAR",
+            "FAM171A1",
+            "OCLM",
+            "HDAC11",
+            "LONRF1",
+            "CDCP1",
+            "FOLR3",
+            "ACAN",
+            "PRDM7",
+            "TMEM186",
+            "TP53I3",
+            "GSTT1",
+            "FZD8",
+            "F2RL1",
+            "CCDC168",
+            "SLC46A1",
+            "NDUFA7",
+            "HSPA12A",
+            "COL13A1",
+            "CHKB",
+            "AL049697.1",
+            "RASIP1",
+            "LAMC3",
+            "RRN3",
+            "AVIL",
+            "C1orf56",
+            "MTFR2",
+            "HOXB4",
+            "SLCO4A1",
+            "DPYSL4",
+            "PEX7",
+            "WDR66",
+            "NME1",
+            "CCDC40",
+            "SPNS1",
+            "HMCN2",
+            "SPARCL1",
+            "THSD1",
+            "DNTT",
+            "HEY2",
+            "EME1",
+            "CDH2",
+            "C9orf43",
+            "ESRRG",
+            "DOK7",
+            "ARFGEF3",
+            "CCDC189",
+            "INSL3",
+            "LRRC20",
+            "LNP1",
+            "ALDH8A1",
+            "VSIG10",
+            "PTRH1",
+            "KHDRBS3",
+            "SLC3A1",
+            "GTF2H2",
+            "DYRK3",
+            "DMKN",
+            "OLFM1",
+            "TMPRSS3",
+            "AP2A2",
+            "POU2F3",
+            "DELEC1",
+            "ACER1",
+            "CDRT4",
+            "MEGF10",
+            "RGS7",
+            "LRRIQ1",
+            "USP50",
+            "C2CD6",
+            "OTUD7A",
+            "TAS1R3",
+            "FLOT1",
+            "UCHL3",
+            "THSD4",
+            "ADGRB3",
+            "ST18",
+            "PALMD",
+            "BHMT2",
+            "C9orf131",
+            "GRAPL",
+            "CYB5R2",
+            "FREM1",
+            "WSCD2",
+            "PCDH10",
+            "RAD51",
+            "LRRC37A2",
+            "ADAT3",
+            "AK7",
+            "HSD17B13",
+            "LRRC17",
+            "PPP1R3B",
+            "PARS2",
+            "DEGS2",
+            "HBZ"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 3,
+      "description": "Pre-vaccination differences between Male vs female, community-dwelling older adults (non-frail)",
+      "location": [
+        {
+          "type": "Table",
+          "value": "S9"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 6,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 7,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Hemagglutination inhibition assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "HLA-C",
+            "TTC28",
+            "TGM2",
+            "FABP4",
+            "TMTC4",
+            "HYDIN",
+            "ZNF135",
+            "C8orf82",
+            "ZNF585A",
+            "COL6A1",
+            "RPP25L",
+            "NAALADL1",
+            "RND2",
+            "COL9A3",
+            "PPFIA3",
+            "CEACAM19",
+            "SLC1A2",
+            "FAM13C",
+            "NDUFAF4",
+            "AL121753.1",
+            "SMAD9",
+            "GTF2H2C_2",
+            "ADGRG6",
+            "TFAP2D"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "WWC1",
+            "HIST2H4A",
+            "PPP1R1C",
+            "CLEC20A"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 4,
+      "description": "Pre-vaccination differences between those who will be high responders and low responders to the flu vaccine: Community-dwelling older adults (non-frail)",
+      "location": [
+        {
+          "type": "Table",
+          "value": "S9"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 8,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 9,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Hemagglutination inhibition assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "HLA-DRB1",
+            "ANGEL2",
+            "HSPH1",
+            "TMEM33",
+            "IQCN",
+            "PLA2G6",
+            "B3GNT2",
+            "FBXO41",
+            "AEBP1",
+            "RCC1L",
+            "P4HTM",
+            "PFKFB4",
+            "NAF1",
+            "DUSP4",
+            "NGRN",
+            "ACBD4",
+            "PDE1B",
+            "DHX32",
+            "LETM2",
+            "CNR2",
+            "LRFN1",
+            "ASTE1",
+            "ALG9",
+            "RCN3",
+            "FAM160A1",
+            "RNF207",
+            "ZNF74",
+            "EVC2",
+            "C3",
+            "ACVRL1",
+            "QRICH2",
+            "GABRD",
+            "VWDE",
+            "LRRC39",
+            "RNF212",
+            "SLC25A32",
+            "C1QTNF3",
+            "ATP8A2",
+            "DNAH8",
+            "SDC2",
+            "MAMSTR",
+            "RTEL1-TNFRSF6B",
+            "SEMA3A",
+            "ITGA11",
+            "NEGR1",
+            "PPARG",
+            "PCDHGB2",
+            "LYG1",
+            "ALG14",
+            "B4GALNT4",
+            "GABRG3",
+            "GPRC5C",
+            "FAM47E",
+            "PSAT1",
+            "SSUH2",
+            "HYAL1",
+            "GNAT2",
+            "CCR6",
+            "NKAPL",
+            "CXCR6",
+            "DCT",
+            "RAD21L1",
+            "C8orf88",
+            "TMPRSS4",
+            "IGF1",
+            "SHANK1"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "PARD3B",
+            "GRIK5",
+            "NOMO1",
+            "TANC1",
+            "ECHDC3",
+            "NHSL1",
+            "ST8SIA5",
+            "SS18L2",
+            "CHMP4C",
+            "PTRH2",
+            "TTLL1",
+            "ANXA9",
+            "ARHGEF28",
+            "GRIN2D",
+            "LRRC43",
+            "PPP2R3A",
+            "AC087289.1",
+            "CCDC85A",
+            "BVES",
+            "CRISP3",
+            "TTC6",
+            "GPI",
+            "BICC1",
+            "SMIM6",
+            "AP3B2",
+            "SYT12",
+            "ANKRD13B",
+            "AXL",
+            "KIF6",
+            "PPFIA4",
+            "KCNC1",
+            "NPNT",
+            "PRELID3A",
+            "DCN",
+            "WFS1",
+            "WNT10B",
+            "ETV1",
+            "CADPS",
+            "ADGRF2",
+            "COL15A1",
+            "CLCN1",
+            "COL6A5",
+            "MLF1",
+            "ATP2A1",
+            "CLDN12",
+            "GRM7",
+            "NUTM2A",
+            "TMEM200A",
+            "ANO4",
+            "DLEU7",
+            "OR10H5",
+            "CADM3",
+            "NYNRIN",
+            "ARPP21",
+            "FGFR2",
+            "C15orf65",
+            "MYPN",
+            "CSRNP3",
+            "PPL",
+            "BMPER",
+            "FZD4",
+            "MGAT4C",
+            "LSM14A",
+            "CPE",
+            "RASSF9",
+            "SFRP2",
+            "SLC22A8",
+            "SEC14L3",
+            "FKBP7",
+            "COL16A1",
+            "ABCC9",
+            "CABYR",
+            "SIGLEC15",
+            "CALN1",
+            "KIAA1755",
+            "GRHL2",
+            "MSRA",
+            "ALK",
+            "POTEJ",
+            "NTM",
+            "KCNH4",
+            "CATSPERB",
+            "NXPE1",
+            "SLCO5A1",
+            "CCDC24",
+            "NXPH3",
+            "MTTP",
+            "PRR26",
+            "C8B",
+            "TEAD1",
+            "SYCP2L",
+            "CCDC190",
+            "COL23A1",
+            "CDCA3",
+            "MMP21",
+            "AMPD1",
+            "ECM2",
+            "SLC5A4",
+            "LHX9",
+            "ZBTB7C",
+            "ADAM29",
+            "KCNJ5",
+            "SHD",
+            "TRPM5",
+            "MUC4",
+            "AP000646.1",
+            "PPM1E",
+            "COL8A2",
+            "THSD7B",
+            "CORO7"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 5,
+      "description": "Pre-vaccination differences between Male vs female, skilled nursing facility older adults (increased frail)",
+      "location": [
+        {
+          "type": "Table",
+          "value": "S10"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 10,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 11,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Hemagglutination inhibition assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "RGS18",
+            "RAB11A",
+            "CA2",
+            "HEMGN",
+            "FGFR1OP2",
+            "TARSL2",
+            "FBXO48",
+            "TEX261",
+            "EIF4EBP1",
+            "HIST4H4",
+            "PTPN13",
+            "MDK",
+            "ORAI3",
+            "MALRD1",
+            "PLEKHA6",
+            "SETD9",
+            "NUDCD2",
+            "ATP2B2"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "PAG1",
+            "MPIG6B",
+            "FMNL3",
+            "CTC1",
+            "NUP188",
+            "TUBB2A"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    },
+    {
+      "id": 6,
+      "description": "Pre-vaccination differences between those who will be high responders and low responders to the flu vaccine: Skilled nursing facility older adults (increased frail)",
+      "location": [
+        {
+          "type": "Table",
+          "value": "S7"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 12,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "comparison_group": {
+        "participant_group": 13,
+        "time_point": 0,
+        "tissue": "Plasma"
+      },
+      "experiment_type": "Hemagglutination inhibition assay",
+      "response_component": [
+        {
+          "type": "genes",
+          "identifier": [
+            "RSU1",
+            "MFSD1",
+            "PIK3CB",
+            "MSANTD3",
+            "HIST1H4H",
+            "PLCH1",
+            "MAFG",
+            "PRR7",
+            "DOK6",
+            "NEK6",
+            "GSTM4",
+            "SERPINE2",
+            "ST3GAL6",
+            "ADAM12",
+            "PARPBP",
+            "HLA-DRB1",
+            "NFRKB",
+            "ABHD17B",
+            "APOBEC3F",
+            "AGPAT1",
+            "HACD1",
+            "CDKN2C",
+            "RASAL2",
+            "FAM50B",
+            "SLC35A5",
+            "WDR75",
+            "MPG",
+            "COL4A1",
+            "ECSIT",
+            "HHLA3",
+            "MEAK7",
+            "CXCL2",
+            "CYYR1",
+            "SLC26A8",
+            "PGLYRP1",
+            "WDR17",
+            "EFCAB7",
+            "GSTM1",
+            "IMMP1L",
+            "UBE3D",
+            "SEPTIN10",
+            "FAM187B",
+            "TSTD3",
+            "FBXO15",
+            "PCBD1",
+            "RFK",
+            "TLN2",
+            "NETO1",
+            "PARL",
+            "PIGP",
+            "UFSP2",
+            "PREX2",
+            "GJA1",
+            "SPARCL1",
+            "TRMT61B",
+            "ZNF667",
+            "LSM14A",
+            "ZNF613",
+            "BOLA3",
+            "C11orf65",
+            "ERICH6B",
+            "SMO",
+            "DDO",
+            "RD3L",
+            "TMIGD3",
+            "TLR10",
+            "MTHFSD",
+            "ARMC4",
+            "IGSF22",
+            "OR2L2",
+            "PAPPA2",
+            "RGPD8",
+            "TMEM86B",
+            "GAS8"
+          ],
+          "behavior": "Up"
+        },
+        {
+          "type": "genes",
+          "identifier": [
+            "B2M",
+            "UBR5",
+            "RUNX3",
+            "LIMD2",
+            "PRPF4B",
+            "BX255925.3",
+            "SPOCK2",
+            "EP400",
+            "CDK13",
+            "PPP1R16B",
+            "RORA",
+            "RBM19",
+            "DUSP2",
+            "PDCD2",
+            "GAA",
+            "TFAM",
+            "TTC31",
+            "ANO8",
+            "AATK",
+            "GZMB",
+            "HACD3",
+            "PALLD",
+            "MRPL36",
+            "NRP2",
+            "ENAH",
+            "SAMM50",
+            "AEN",
+            "ZDHHC6",
+            "C17orf51",
+            "WDR74",
+            "PRRT2",
+            "C22orf46",
+            "NCAM1",
+            "ZNF621",
+            "TMEM156",
+            "RHNO1",
+            "C19orf44",
+            "MYH3",
+            "B4GALT3",
+            "UNC119B",
+            "GHDC",
+            "VPS16",
+            "TACC2",
+            "SPACA6",
+            "CASTOR2",
+            "ATRIP",
+            "ZBTB39",
+            "LSM7",
+            "EREG",
+            "ZNF512",
+            "HIST1H3I",
+            "RAMP3",
+            "ZNF814",
+            "FCRL6",
+            "NME6",
+            "CSMD2",
+            "HECW2",
+            "INPP1",
+            "C10orf143",
+            "SLCO5A1",
+            "DUOX1",
+            "ZNF385B",
+            "ZNF345",
+            "PSMG4",
+            "KANSL1",
+            "GLMP",
+            "FUZ",
+            "KAT14",
+            "CUBN",
+            "CLIC3",
+            "ZNF559",
+            "ZNF296",
+            "FBXO5",
+            "PUSL1",
+            "BBS4",
+            "ALPK2",
+            "ZNF442",
+            "ANKRD33",
+            "ZNF446",
+            "PLPP3",
+            "PTCH2",
+            "GNA11",
+            "DIP2C",
+            "ZNF610",
+            "FXYD6",
+            "STX16-NPEPL1",
+            "FAM153C",
+            "PLA2G16",
+            "MRC1",
+            "CYP11A1",
+            "ANKS1B",
+            "KLHL29"
+          ],
+          "behavior": "Down"
+        }
+      ],
+      "repository": 0
+    }
+  ],
+  "notes": [
+    "The immune exposure here is to the 2018/2019 seasonal trivalent influenza vaccine, using a VO code for trivalent influenza vaccine."
+  ]
+}

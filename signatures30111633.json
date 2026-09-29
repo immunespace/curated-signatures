@@ -1,0 +1,148 @@
+{
+  "publication_text": "Human Lymph Nodes Maintain TCF-1hi Memory T Cells with High Functional Potential and Clonal Diversity throughout Life",
+  "publication_pmid": "30111633",
+  "contributor": "Kalpana Raja",
+  "contributor_org": "Yale",
+  "contributor_email": "kalpana.raja@yale.edu",
+  "repository": [
+    {
+      "name": "ImmPort",
+      "repository_id": "SDY1389",
+      "id": 0
+    },
+    {
+      "name": "GEO",
+      "repository_id": "GSE106420",
+      "id": 1
+    }
+  ],
+  "time_point": [
+    {
+      "id": 0,
+      "planned_event_id": "PE1389_01",
+      "event_type": "death",
+      "event_subtype": "brain death",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    },
+    {
+      "id": 1,
+      "planned_event_id": "PV7249",
+      "event_type": "study enrollment",
+      "event_subtype": "admission",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": true
+    },
+    {
+      "id": 2,
+      "planned_event_id": "PE1389_02",
+      "event_type": "specimen collection",
+      "event_subtype": "tissues collection at the time of organ acquisition for clinical transplantation",
+      "earliest_start": 0,
+      "time_unit": "day",
+      "is_T0": false
+    }
+  ],
+  "participant_group": [
+    {
+      "name": "All subjects for lymph node memory T cell maintenance",
+      "immport_arm_id": [
+        "ARM4675"
+      ],
+      "geolocation": [
+        "US: New York"
+      ],
+      "is_full_arm": true,
+      "id": 0,
+      "age": [
+        {
+          "type": "Min and Max",
+          "value1": 2,
+          "value2": 76,
+          "units": "years"
+        }
+      ],
+      "human_subjects": 56,
+      "biological_sex": {
+        "male": 40,
+        "female": 16
+      }
+    }
+  ],
+  "signature": [
+    {
+      "id": 0,
+      "description": "Blood marrow vs lung CD8+TEM gene expression at time of death",
+      "location": [
+        {
+          "type": "Figure",
+          "value": "2a"
+        }
+      ],
+      "organism": "Human",
+      "reference_group": {
+        "participant_group": 0,
+        "tissue": "Lung",
+        "cell_base_type": "T cell CD8+",
+        "cell_population": "CD8+TEM",
+        "cell_population_id": "CL:000909",
+        "time_point": 2
+      },
+      "comparison_group": {
+        "participant_group": 0,
+        "tissue": "Bone Marrow",
+        "cell_base_type": "T cell CD8+",
+        "cell_population": "CD8+TEM",
+        "cell_population_id": "CL:000909",
+        "time_point": 2
+      },
+      "experiment_type": "RNA sequencing assay",
+      "experiment_time_point": 2,
+      "response_component": [
+        {
+          "type": "gene",
+          "identifier": [
+            "LEF1",
+            "BCL6",
+            "ICOS",
+            "CD28",
+            "CCR7",
+            "CXCR5",
+            "CXCR4",
+            "WNT10A",
+            "CD44",
+            "IL2RA",
+            "CCNE1",
+            "CDKN1A",
+            "GNL3"
+          ],
+          "behavior": "down"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "RORC",
+            "TBX21",
+            "S1PR5",
+            "CCR2",
+            "GZMA",
+            "SOX13",
+            "CDKN2C"
+          ],
+          "behavior": "up"
+        },
+        {
+          "type": "gene",
+          "identifier": [
+            "TCF7",
+            "PRF1"
+          ],
+          "behavior": "changed"
+        }
+      ],
+      "repository": 0
+    }
+  ]
+}
