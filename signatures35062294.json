@@ -160,13 +160,13 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "T cell CD4+",
         "time_point": 1
       },
       "comparison_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "T cell CD8+/CD4+",
         "time_point": 1
       },
@@ -313,13 +313,13 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "T cell CD8+",
         "time_point": 1
       },
       "comparison_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "T cell CD8+/CD4+",
         "time_point": 1
       },
@@ -377,13 +377,13 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 1,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "T cell CD8+/CD4+",
         "time_point": 1
       },
       "comparison_group": {
         "participant_group": 0,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "T cell CD8+/CD4+",
         "time_point": 1
       },
