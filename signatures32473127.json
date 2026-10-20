@@ -152,11 +152,13 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 1,
-        "time_point": 4
+        "time_point": 4,
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 0,
-        "time_point": 3
+        "time_point": 3,
+        "tissue": "blood plasma"
       },
       "experiment_type": "Swab test viral PCR",
       "response_component": [
