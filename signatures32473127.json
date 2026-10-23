@@ -160,7 +160,7 @@
         "time_point": 3,
         "tissue": "blood plasma"
       },
-      "experiment_type": "Swab test viral PCR",
+      "experiment_type": "ELISA",
       "response_component": [
         {
           "type": "protein",
