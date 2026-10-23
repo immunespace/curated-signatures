@@ -114,11 +114,13 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 1,
-        "time_point": 3
+        "time_point": 3,
+        "tissue": "blood"
       },
       "comparison_group": {
         "participant_group": 0,
-        "time_point": 3
+        "time_point": 3,
+        "tissue": "blood"
       },
       "experiment_type": "Whole blood assay",
       "response_component": [

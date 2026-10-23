@@ -164,14 +164,14 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "T cell CD8+",
         "cell_population": "IFN-γ+ CD8+ T cells",
         "time_point": 2
       },
       "comparison_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "T cell CD8+",
         "cell_population": "IFN-γ- CD8+ T cells",
         "time_point": 2

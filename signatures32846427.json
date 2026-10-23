@@ -215,12 +215,12 @@
       "reference_group": {
         "participant_group": 2,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 0,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "ELISA",
       "response_component": [
@@ -319,12 +319,12 @@
       "reference_group": {
         "participant_group": 3,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 1,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "ELISA",
       "response_component": [
@@ -423,12 +423,12 @@
       "reference_group": {
         "participant_group": 2,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 1,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "ELISA",
       "response_component": [
@@ -530,12 +530,12 @@
       "reference_group": {
         "participant_group": 3,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 0,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "ELISA",
       "response_component": [

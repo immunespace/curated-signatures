@@ -133,12 +133,12 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 0,
-        "tissue": "Blood",
+        "tissue": "blood",
         "time_point": 0
       },
       "comparison_group": {
         "participant_group": 0,
-        "tissue": "Blood",
+        "tissue": "blood",
         "time_point": 2
       },
       "experiment_type": "Mass Cytometry Assay",
@@ -170,12 +170,12 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 0,
-        "tissue": "Blood",
+        "tissue": "blood",
         "time_point": 3
       },
       "comparison_group": {
         "participant_group": 0,
-        "tissue": "Blood",
+        "tissue": "blood",
         "time_point": 4
       },
       "experiment_type": "Mass Cytometry Assay",
@@ -207,7 +207,7 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 0,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "Dendritic cell",
         "cell_population": "cDC2",
         "cell_population_id": "CL:0000990",
@@ -215,7 +215,7 @@
       },
       "comparison_group": {
         "participant_group": 0,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "Dendritic cell",
         "cell_population": "cDC2",
         "cell_population_id": "CL:0000990",
@@ -274,7 +274,7 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 0,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "Mononuclear cell",
         "cell_population_id": "CL:0001054",
         "cell_population": "CD14+ monocyte",
@@ -282,7 +282,7 @@
       },
       "comparison_group": {
         "participant_group": 0,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "Mononuclear cell",
         "cell_population_id": "CL:0001054",
         "cell_population": "CD14+ monocyte",

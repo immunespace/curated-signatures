@@ -107,12 +107,12 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 0,
-        "tissue": "Plasma",
+        "tissue": "blood plasma",
         "time_point": 2
       },
       "comparison_group": {
         "participant_group": 0,
-        "tissue": "Plasma",
+        "tissue": "blood plasma",
         "time_point": 3
       },
       "experiment_type": "Bio-Plex Luminex-200 (Bio-Rad)",
@@ -149,12 +149,12 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 0,
-        "tissue": "Plasma",
+        "tissue": "blood plasma",
         "time_point": 2
       },
       "comparison_group": {
         "participant_group": 0,
-        "tissue": "Plasma",
+        "tissue": "blood plasma",
         "time_point": 4
       },
       "experiment_type": "Bio-Plex Luminex-200 (Bio-Rad)",
@@ -182,12 +182,12 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 0,
-        "tissue": "Plasma",
+        "tissue": "blood plasma",
         "time_point": 2
       },
       "comparison_group": {
         "participant_group": 0,
-        "tissue": "Plasma",
+        "tissue": "blood plasma",
         "time_point": 3
       },
       "experiment_type": "Next Generation RNA sequencing",
