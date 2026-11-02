@@ -194,12 +194,12 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "time_point": 0
       },
       "comparison_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "time_point": 2
       },
       "experiment_type": "RNA sequencing assay",
@@ -242,12 +242,12 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "time_point": 0
       },
       "comparison_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "time_point": 3
       },
       "experiment_type": "RNA sequencing assay",
@@ -290,12 +290,12 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "time_point": 0
       },
       "comparison_group": {
         "participant_group": 2,
-        "tissue": "Blood",
+        "tissue": "blood",
         "time_point": 4
       },
       "experiment_type": "RNA sequencing assay",

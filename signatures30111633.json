@@ -84,7 +84,7 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 0,
-        "tissue": "Lung",
+        "tissue": "lung",
         "cell_base_type": "T cell CD8+",
         "cell_population": "CD8+TEM",
         "cell_population_id": "CL:000909",
@@ -92,7 +92,7 @@
       },
       "comparison_group": {
         "participant_group": 0,
-        "tissue": "Bone Marrow",
+        "tissue": "bone marrow",
         "cell_base_type": "T cell CD8+",
         "cell_population": "CD8+TEM",
         "cell_population_id": "CL:000909",

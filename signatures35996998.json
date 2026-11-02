@@ -245,12 +245,12 @@
       "reference_group": {
         "participant_group": 4,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 5,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Untargeted metabolomics analysis",
       "experiment_time_point": 0,
@@ -292,12 +292,12 @@
       "reference_group": {
         "participant_group": 4,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 4,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Gene expression analysis",
       "experiment_time_point": 3,
@@ -329,12 +329,12 @@
       "reference_group": {
         "participant_group": 4,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 4,
         "time_point": 4,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Gene expression analysis",
       "experiment_time_point": 4,
@@ -366,12 +366,12 @@
       "reference_group": {
         "participant_group": 5,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 5,
         "time_point": 2,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Gene expression analysis",
       "experiment_time_point": 2,
@@ -403,12 +403,12 @@
       "reference_group": {
         "participant_group": 5,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 5,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Gene expression analysis",
       "experiment_time_point": 3,
@@ -448,12 +448,12 @@
       "reference_group": {
         "participant_group": 5,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 5,
         "time_point": 4,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Gene expression analysis",
       "experiment_time_point": 4,
@@ -481,12 +481,12 @@
       "reference_group": {
         "participant_group": 4,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 4,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 3,
@@ -540,12 +540,12 @@
       "reference_group": {
         "participant_group": 4,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 4,
         "time_point": 4,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 4,
@@ -585,12 +585,12 @@
       "reference_group": {
         "participant_group": 4,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 4,
         "time_point": 2,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 2,
@@ -656,12 +656,12 @@
       "reference_group": {
         "participant_group": 4,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 4,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 3,
@@ -796,12 +796,12 @@
       "reference_group": {
         "participant_group": 4,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 4,
         "time_point": 4,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 4,
@@ -884,12 +884,12 @@
       "reference_group": {
         "participant_group": 1,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 1,
         "time_point": 4,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 4,
@@ -942,12 +942,12 @@
       "reference_group": {
         "participant_group": 0,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 0,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 3,
@@ -990,12 +990,12 @@
       "reference_group": {
         "participant_group": 3,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 3,
         "time_point": 2,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 2,
@@ -1052,12 +1052,12 @@
       "reference_group": {
         "participant_group": 3,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 3,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 3,
@@ -1122,12 +1122,12 @@
       "reference_group": {
         "participant_group": 3,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 3,
         "time_point": 4,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 4,
@@ -1177,12 +1177,12 @@
       "reference_group": {
         "participant_group": 2,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 2,
         "time_point": 2,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 2,
@@ -1211,12 +1211,12 @@
       "reference_group": {
         "participant_group": 2,
         "time_point": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 2,
         "time_point": 3,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Illumina beadChips microarray",
       "experiment_time_point": 3,

@@ -199,11 +199,11 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 0,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "comparison_group": {
         "participant_group": 1,
-        "tissue": "Plasma"
+        "tissue": "blood plasma"
       },
       "experiment_type": "Multiplex analysis of cytokines in the plasma",
       "response_component": [

@@ -109,12 +109,12 @@
       "reference_group": {
         "participant_group": 0,
         "time_point": 3,
-        "tissue": "Blood"
+        "tissue": "blood"
       },
       "comparison_group": {
         "participant_group": 1,
         "time_point": 2,
-        "tissue": "Lung"
+        "tissue": "lung"
       },
       "experiment_type": "RNA sequencing assay",
       "response_component": [
@@ -151,12 +151,12 @@
       "reference_group": {
         "participant_group": 0,
         "time_point": 3,
-        "tissue": "Blood"
+        "tissue": "blood"
       },
       "comparison_group": {
         "participant_group": 1,
         "time_point": 2,
-        "tissue": "Bone Marrow"
+        "tissue": "bone marrow"
       },
       "experiment_type": "RNA sequencing assay",
       "response_component": [
@@ -189,12 +189,12 @@
       "reference_group": {
         "participant_group": 0,
         "time_point": 3,
-        "tissue": "Blood"
+        "tissue": "blood"
       },
       "comparison_group": {
         "participant_group": 1,
         "time_point": 2,
-        "tissue": "Lymph Node"
+        "tissue": "lymph node"
       },
       "experiment_type": "RNA sequencing assay",
       "response_component": [

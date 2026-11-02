@@ -86,7 +86,7 @@
       "reference_group": {
         "participant_group": 0,
         "time_point": 1,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "NKT cells",
         "cell_population": "CD56dimCD16+ NK cells",
         "cell_population_id": "CL:0000939"
@@ -94,7 +94,7 @@
       "comparison_group": {
         "participant_group": 0,
         "time_point": 1,
-        "tissue": "Blood",
+        "tissue": "blood",
         "cell_base_type": "NKT cells",
         "cell_population": "CD56brightCD16- NK cells",
         "cell_population_id": "CL:0000938"
