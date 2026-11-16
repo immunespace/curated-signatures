@@ -74,7 +74,7 @@
   "signature": [
     {
       "id": 0,
-      "description": "Blood marrow vs lung CD8+TEM gene expression at time of death",
+      "description": "Bone marrow vs lung CD8+TEM gene expression at time of death",
       "location": [
         {
           "type": "Figure",
