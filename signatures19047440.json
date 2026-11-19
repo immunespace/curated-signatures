@@ -141,7 +141,7 @@
         "tissue": "blood",
         "time_point": 3
       },
-      "experiment_type": "RNA sequencing assay",
+      "experiment_type": "Microarray",
       "response_component": [
         {
           "type": "gene",
@@ -355,7 +355,7 @@
         "tissue": "blood",
         "time_point": 4
       },
-      "experiment_type": "RNA sequencing assay",
+      "experiment_type": "Microarray",
       "response_component": [
         {
           "type": "gene",
@@ -855,7 +855,7 @@
         "tissue": "blood",
         "time_point": 5
       },
-      "experiment_type": "RNA sequencing assay",
+      "experiment_type": "Microarray",
       "response_component": [
         {
           "type": "gene",
@@ -1052,7 +1052,7 @@
         "tissue": "blood",
         "time_point": 6
       },
-      "experiment_type": "RNA sequencing assay",
+      "experiment_type": "Microarray",
       "response_component": [
         {
           "type": "gene",
@@ -1143,7 +1143,7 @@
         "tissue": "blood",
         "time_point": 7
       },
-      "experiment_type": "RNA sequencing assay",
+      "experiment_type": "Microarray",
       "response_component": [
         {
           "type": "gene",
@@ -1195,7 +1195,7 @@
         "tissue": "blood",
         "time_point": 8
       },
-      "experiment_type": "RNA sequencing assay",
+      "experiment_type": "Microarray",
       "response_component": [
         {
           "type": "gene",
