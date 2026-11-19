@@ -74,7 +74,7 @@
   "signature": [
     {
       "id": 0,
-      "description": "Bone marrow vs lung CD8+TEM gene expression at time of death",
+      "description": "Bone marrow vs lymph node CD8+TEM gene expression at time of death",
       "location": [
         {
           "type": "Figure",
@@ -84,7 +84,7 @@
       "organism": "Human",
       "reference_group": {
         "participant_group": 0,
-        "tissue": "lung",
+        "tissue": "lymph node",
         "cell_base_type": "T cell CD8+",
         "cell_population": "CD8+TEM",
         "cell_population_id": "CL:000909",
